@@ -1,0 +1,22 @@
+name: Vigilar producción
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: vigilar
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 vigilar.py
+        env:
+          NTFY_TEMA: ${{ secrets.NTFY_TEMA }}
+      - run: |
+          git config user.name "pop-vigilante"
+          git config user.email "vigilante@users.noreply.github.com"
+          git add estado.json
+          git diff --cached --quiet || git commit -q -m "estado $(date -u +%H:%M)" && git push -q
