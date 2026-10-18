@@ -1,6 +1,6 @@
 name: Vigilar producción
-# Cada minuto, 24/7. El cron de GitHub no siempre salta en repos nuevos o con poca actividad, así que cada vuelta
-# espera ~35 s y lanza la siguiente (≈1 vuelta por minuto) (workflow_dispatch con el GITHUB_TOKEN sí crea ejecuciones nuevas).
+# Cada 5 min (el cron de GitHub puede retrasarse unos minutos). vigilar.py solo reescribe estado.json si cambia
+# algún servicio o toca latido (cada 30 min), así que solo hay commit cuando hay algo que contar.
 # La concurrencia deja como mucho una vuelta en marcha y una en cola: no se multiplican.
 on:
   schedule:
@@ -8,28 +8,22 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-  actions: write
 concurrency:
   group: vigilar
   cancel-in-progress: false
 jobs:
   vigilar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      # Sin SLACK_WEBHOOK (o NTFY_TEMA) el aviso se salta sin fallar.
       - run: python3 vigilar.py
         env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           NTFY_TEMA: ${{ secrets.NTFY_TEMA }}
       - run: |
           git config user.name "pop-vigilante"
           git config user.email "vigilante@users.noreply.github.com"
           git add estado.json
           git diff --cached --quiet || { git commit -q -m "estado $(date -u +%H:%M)" && git pull -q --rebase && git push -q; }
-      - name: Siguiente vuelta en ~1 min
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          sleep 35
-          gh workflow run vigilar.yml -R "$GITHUB_REPOSITORY"
