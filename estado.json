@@ -1,25 +1,25 @@
 {
- "actualizado": "2026-10-22T19:10:07Z",
- "latido": "2026-10-22T19:10:07Z",
+ "actualizado": "2026-10-22T19:40:06Z",
+ "latido": "2026-10-22T19:40:06Z",
  "produccion": [
   {
    "servicio": "API de POP",
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 444,
-   "comprobado": "2026-10-22T19:10:07Z",
+   "latenciaMs": 437,
+   "comprobado": "2026-10-22T19:40:06Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
-   "estado": "ok",
-   "codigo": 200,
-   "latenciaMs": 434,
-   "comprobado": "2026-10-22T19:10:07Z",
-   "caidoDesde": null,
+   "estado": "caido",
+   "codigo": 404,
+   "latenciaMs": 498,
+   "comprobado": "2026-10-22T19:40:06Z",
+   "caidoDesde": "2026-10-22T19:40:06Z",
    "caidaConfirmada": false
   },
   {
@@ -27,42 +27,23 @@
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 616,
-   "comprobado": "2026-10-22T19:10:07Z",
+   "latenciaMs": 421,
+   "comprobado": "2026-10-22T19:40:06Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
   {
    "servicio": "Web actual",
    "url": "https://pulpop.io/",
-   "estado": "ok",
+   "estado": "aviso",
    "codigo": 200,
-   "latenciaMs": 854,
-   "comprobado": "2026-10-22T19:10:07Z",
+   "latenciaMs": 2634,
+   "comprobado": "2026-10-22T19:40:06Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   }
  ],
  "historial": [
-  {
-   "t": "2026-10-22T10:55:54Z",
-   "API de POP": [
-    200,
-    332
-   ],
-   "POP (app)": [
-    200,
-    405
-   ],
-   "Web nueva": [
-    200,
-    404
-   ],
-   "Web actual": [
-    200,
-    986
-   ]
-  },
   {
    "t": "2026-10-22T10:56:41Z",
    "API de POP": [
@@ -1866,6 +1847,25 @@
    "Web actual": [
     200,
     854
+   ]
+  },
+  {
+   "t": "2026-10-22T19:40:06Z",
+   "API de POP": [
+    200,
+    437
+   ],
+   "POP (app)": [
+    404,
+    498
+   ],
+   "Web nueva": [
+    200,
+    421
+   ],
+   "Web actual": [
+    200,
+    2634
    ]
   }
  ]
