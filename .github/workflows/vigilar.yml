@@ -1,29 +1,81 @@
 name: Vigilar producción
-# Cada 5 min (el cron de GitHub puede retrasarse unos minutos). vigilar.py solo reescribe estado.json si cambia
+# 22/10/2026: el cron de GitHub es poco fiable (se salta o retrasa horas las ejecuciones), así que la vigilancia es una
+# cadena que se relanza sola: cada ejecución vigila cada 5 min durante ~5 h 45 min y al acabar lanza la siguiente con el
+# GITHUB_TOKEN (workflow_dispatch sí crea ejecución nueva aunque lo dispare el token; push o schedule no lo harían).
+# El schedule queda solo como red de seguridad por si la cadena se rompe. vigilar.py solo reescribe estado.json si cambia
 # algún servicio o toca latido (cada 30 min), así que solo hay commit cuando hay algo que contar.
-# La concurrencia deja como mucho una vuelta en marcha y una en cola: no se multiplican.
+# La concurrencia deja como mucho una ejecución en marcha y otra en cola: nunca hay dos cadenas a la vez. Cada ejecución,
+# nada más empezar, deja ya en cola a la siguiente, así que aunque esta muera de golpe no se queda el relevo sin hacer.
+# Para parar la vigilancia del todo: gh workflow disable vigilar.yml (cancelar una ejecución no basta, relanza la siguiente).
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "17,47 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: vigilar
   cancel-in-progress: false
 jobs:
   vigilar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 355
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
     steps:
       - uses: actions/checkout@v4
-      # Sin SLACK_WEBHOOK (o NTFY_TEMA) el aviso se salta sin fallar.
-      - run: python3 vigilar.py
+      - name: Dejar en cola la siguiente ejecución
+        run: gh workflow run vigilar.yml --ref main || echo "::warning::no pude dejar la siguiente en cola; la lanzará el último paso"
+      - name: Vigilar cada 5 min durante ~5 h 45 min
         env:
+          # Sin SLACK_WEBHOOK (o NTFY_TEMA) el aviso se salta sin fallar.
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           NTFY_TEMA: ${{ secrets.NTFY_TEMA }}
-      - run: |
+          VUELTA_S: "300"
+          DURACION_S: "20700"
+        run: |
+          # Sin set -e: una vuelta que falle no mata la cadena; se avisa y se sigue con la siguiente.
+          set +e
           git config user.name "pop-vigilante"
           git config user.email "vigilante@users.noreply.github.com"
-          git add estado.json
-          git diff --cached --quiet || { git commit -q -m "estado $(date -u +%H:%M)" && git pull -q --rebase && git push -q; }
+          rama="${GITHUB_REF_NAME:-main}"
+          publicar() {
+            for i in 1 2 3 4; do
+              git pull -q --rebase origin "$rama" && git push -q origin "HEAD:$rama" && return 0
+              git rebase --abort 2>/dev/null
+              sleep $((i * 5))
+            done
+            return 1
+          }
+          fin=$(( $(date +%s) + DURACION_S ))
+          n=0
+          while [ "$(date +%s)" -lt "$fin" ]; do
+            n=$((n + 1))
+            inicio=$(date +%s)
+            echo "== vuelta $n · $(TZ=Europe/Madrid date '+%H:%M:%S') (Barcelona) =="
+            # Parte de lo último publicado (y recoge cambios de vigilar.py si se fusionó algo mientras tanto).
+            git fetch -q origin "$rama" && git reset -q --hard FETCH_HEAD || echo "::warning::no pude sincronizar con origin, sigo con lo que hay"
+            python3 vigilar.py || echo "::warning::vigilar.py falló en la vuelta $n, sigo"
+            git add estado.json
+            if ! git diff --cached --quiet; then
+              git commit -q -m "estado $(date -u +%H:%M)" || echo "::warning::no pude hacer commit en la vuelta $n"
+              publicar && echo "estado.json publicado" || echo "::warning::no pude publicar estado.json en la vuelta $n; se reintenta en la siguiente"
+            fi
+            siguiente=$((inicio + VUELTA_S))
+            [ "$siguiente" -gt "$fin" ] && siguiente=$fin
+            ahora=$(date +%s)
+            [ "$siguiente" -gt "$ahora" ] && sleep $((siguiente - ahora))
+          done
+          echo "Fin de la cadena de esta ejecución tras $n vueltas; el último paso lanza la siguiente."
+          exit 0
+      - name: Lanzar la siguiente ejecución
+        if: always()
+        run: |
+          for i in 1 2 3 4 5; do
+            gh workflow run vigilar.yml --ref main && exit 0
+            sleep $((i * 10))
+          done
+          echo "::error::no pude lanzar la siguiente ejecución"
+          exit 1
