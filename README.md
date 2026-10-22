@@ -6,6 +6,7 @@ Cada 5 minutos mira si responden las direcciones públicas de POP (API, app y we
 - Solo hace commit si cambia algún servicio (código, caída o vuelta). Si no cambia nada, deja un latido cada 30 min (campo `latido` con la hora), para saber que el vigilante sigue vivo.
 - Si algo cae (dos fallos seguidos, para no dar falsas alarmas) o vuelve (con cuánto estuvo caído), avisa en Slack `#dev-pop` y, si está su secreto, al móvil por ntfy.
 - Es público para que GitHub Actions sea gratis y sin límite.
+- Cómo corre (22/10/2026): el cron de GitHub no es fiable, así que cada ejecución vigila en bucle cada 5 min durante ~5 h 45 min y al acabar lanza la siguiente con `workflow_dispatch` y el `GITHUB_TOKEN` (sin llaves nuevas). El `schedule` (cada 30 min) es solo red de seguridad; la concurrencia evita dos cadenas a la vez. Para pararlo: `gh workflow disable vigilar.yml -R alvbur/pop-vigilante`.
 
 ## Avisos en Slack
 
