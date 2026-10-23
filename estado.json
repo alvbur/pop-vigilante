@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-10-23T08:10:34Z",
- "latido": "2026-10-23T08:10:34Z",
+ "actualizado": "2026-10-23T08:20:34Z",
+ "latido": "2026-10-23T08:20:34Z",
  "produccion": [
   {
    "servicio": "API de POP",
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 421,
-   "comprobado": "2026-10-23T08:10:34Z",
+   "latenciaMs": 419,
+   "comprobado": "2026-10-23T08:20:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -17,8 +17,8 @@
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 537,
-   "comprobado": "2026-10-23T08:10:34Z",
+   "latenciaMs": 375,
+   "comprobado": "2026-10-23T08:20:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -27,42 +27,23 @@
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 379,
-   "comprobado": "2026-10-23T08:10:34Z",
+   "latenciaMs": 647,
+   "comprobado": "2026-10-23T08:20:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
   {
    "servicio": "Web actual",
    "url": "https://pulpop.io/",
-   "estado": "ok",
-   "codigo": 200,
-   "latenciaMs": 914,
-   "comprobado": "2026-10-23T08:10:34Z",
-   "caidoDesde": null,
+   "estado": "caido",
+   "codigo": 500,
+   "latenciaMs": 6405,
+   "comprobado": "2026-10-23T08:20:34Z",
+   "caidoDesde": "2026-10-23T08:20:34Z",
    "caidaConfirmada": false
   }
  ],
  "historial": [
-  {
-   "t": "2026-10-22T11:31:56Z",
-   "API de POP": [
-    200,
-    619
-   ],
-   "POP (app)": [
-    200,
-    464
-   ],
-   "Web nueva": [
-    200,
-    526
-   ],
-   "Web actual": [
-    200,
-    2562
-   ]
-  },
   {
    "t": "2026-10-22T11:32:47Z",
    "API de POP": [
@@ -1866,6 +1847,25 @@
    "Web actual": [
     200,
     914
+   ]
+  },
+  {
+   "t": "2026-10-23T08:20:34Z",
+   "API de POP": [
+    200,
+    419
+   ],
+   "POP (app)": [
+    200,
+    375
+   ],
+   "Web nueva": [
+    200,
+    647
+   ],
+   "Web actual": [
+    500,
+    6405
    ]
   }
  ]
