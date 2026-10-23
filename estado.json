@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-10-23T08:25:33Z",
- "latido": "2026-10-23T08:25:33Z",
+ "actualizado": "2026-10-23T08:30:33Z",
+ "latido": "2026-10-23T08:30:33Z",
  "produccion": [
   {
    "servicio": "API de POP",
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 577,
-   "comprobado": "2026-10-23T08:25:33Z",
+   "latenciaMs": 570,
+   "comprobado": "2026-10-23T08:30:33Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -17,8 +17,8 @@
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 377,
-   "comprobado": "2026-10-23T08:25:33Z",
+   "latenciaMs": 374,
+   "comprobado": "2026-10-23T08:30:33Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -27,42 +27,23 @@
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 492,
-   "comprobado": "2026-10-23T08:25:33Z",
+   "latenciaMs": 374,
+   "comprobado": "2026-10-23T08:30:33Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
   {
    "servicio": "Web actual",
    "url": "https://pulpop.io/",
-   "estado": "caido",
-   "codigo": 500,
-   "latenciaMs": 4156,
-   "comprobado": "2026-10-23T08:25:33Z",
-   "caidoDesde": "2026-10-23T08:20:34Z",
-   "caidaConfirmada": true
+   "estado": "ok",
+   "codigo": 200,
+   "latenciaMs": 1163,
+   "comprobado": "2026-10-23T08:30:33Z",
+   "caidoDesde": null,
+   "caidaConfirmada": false
   }
  ],
  "historial": [
-  {
-   "t": "2026-10-22T11:33:37Z",
-   "API de POP": [
-    200,
-    646
-   ],
-   "POP (app)": [
-    200,
-    539
-   ],
-   "Web nueva": [
-    200,
-    546
-   ],
-   "Web actual": [
-    200,
-    878
-   ]
-  },
   {
    "t": "2026-10-22T11:34:25Z",
    "API de POP": [
@@ -1866,6 +1847,25 @@
    "Web actual": [
     500,
     4156
+   ]
+  },
+  {
+   "t": "2026-10-23T08:30:33Z",
+   "API de POP": [
+    200,
+    570
+   ],
+   "POP (app)": [
+    200,
+    374
+   ],
+   "Web nueva": [
+    200,
+    374
+   ],
+   "Web actual": [
+    200,
+    1163
    ]
   }
  ]
