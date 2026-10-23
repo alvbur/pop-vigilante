@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-10-23T07:30:33Z",
- "latido": "2026-10-23T07:30:33Z",
+ "actualizado": "2026-10-23T07:40:34Z",
+ "latido": "2026-10-23T07:40:34Z",
  "produccion": [
   {
    "servicio": "API de POP",
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 908,
-   "comprobado": "2026-10-23T07:30:33Z",
+   "latenciaMs": 528,
+   "comprobado": "2026-10-23T07:40:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -17,8 +17,8 @@
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 478,
-   "comprobado": "2026-10-23T07:30:33Z",
+   "latenciaMs": 489,
+   "comprobado": "2026-10-23T07:40:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -27,42 +27,23 @@
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 477,
-   "comprobado": "2026-10-23T07:30:33Z",
+   "latenciaMs": 372,
+   "comprobado": "2026-10-23T07:40:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
   {
    "servicio": "Web actual",
    "url": "https://pulpop.io/",
-   "estado": "caido",
-   "codigo": 0,
-   "latenciaMs": 20230,
-   "comprobado": "2026-10-23T07:30:33Z",
-   "caidoDesde": "2026-10-23T07:20:33Z",
-   "caidaConfirmada": true
+   "estado": "aviso",
+   "codigo": 200,
+   "latenciaMs": 2072,
+   "comprobado": "2026-10-23T07:40:34Z",
+   "caidoDesde": null,
+   "caidaConfirmada": false
   }
  ],
  "historial": [
-  {
-   "t": "2026-10-22T11:27:07Z",
-   "API de POP": [
-    200,
-    489
-   ],
-   "POP (app)": [
-    200,
-    283
-   ],
-   "Web nueva": [
-    200,
-    406
-   ],
-   "Web actual": [
-    200,
-    770
-   ]
-  },
   {
    "t": "2026-10-22T11:27:53Z",
    "API de POP": [
@@ -1866,6 +1847,25 @@
    "Web actual": [
     0,
     20230
+   ]
+  },
+  {
+   "t": "2026-10-23T07:40:34Z",
+   "API de POP": [
+    200,
+    528
+   ],
+   "POP (app)": [
+    200,
+    489
+   ],
+   "Web nueva": [
+    200,
+    372
+   ],
+   "Web actual": [
+    200,
+    2072
    ]
   }
  ]
