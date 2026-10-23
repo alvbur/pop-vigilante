@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-10-23T12:55:12Z",
+ "actualizado": "2026-10-23T13:10:13Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-10-23T12:40:09Z",
-  "latido": "2026-10-23T12:40:09Z"
+  "actualizado": "2026-10-23T13:10:09Z",
+  "latido": "2026-10-23T13:10:09Z"
  },
  "produccion": [
   {
@@ -12,38 +12,38 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 427,
-   "comprobado": "2026-10-23T12:40:09Z"
+   "latenciaMs": 429,
+   "comprobado": "2026-10-23T13:10:09Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 521,
-   "comprobado": "2026-10-23T12:40:09Z"
+   "latenciaMs": 384,
+   "comprobado": "2026-10-23T13:10:09Z"
   },
   {
    "servicio": "Web nueva",
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 376,
-   "comprobado": "2026-10-23T12:40:09Z"
+   "latenciaMs": 503,
+   "comprobado": "2026-10-23T13:10:09Z"
   },
   {
    "servicio": "Web actual",
    "url": "https://pulpop.io/",
-   "estado": "ok",
+   "estado": "aviso",
    "codigo": 200,
-   "latenciaMs": 785,
-   "comprobado": "2026-10-23T12:40:09Z"
+   "latenciaMs": 2475,
+   "comprobado": "2026-10-23T13:10:09Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-23T12:55:12Z",
+   "comprobado": "2026-10-23T13:10:13Z",
    "main": {
     "sha": "7eac703c4e746724e2d1c142fb6b8c903964b44d",
     "ci": "ok",
@@ -141,12 +141,37 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 6,
-   "prs": []
+   "ramas": 10,
+   "prs": [
+    {
+     "numero": 49,
+     "sha": "e76b74eb577b6dd1d24913d6c099e796eee1cabd",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    },
+    {
+     "numero": 48,
+     "sha": "e147a7380d3f5bd6ebd6d0fd79f4465e06dc8469",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    },
+    {
+     "numero": 47,
+     "sha": "5e58e60981e7fed366f828fb6808acbc5e80ccdf",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 2,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-23T12:55:12Z",
+   "comprobado": "2026-10-23T13:10:13Z",
    "main": {
     "sha": "4de8007d2c34f002a48a7ed9b7cde98b8f1c47ae",
     "ci": "ok",
@@ -244,8 +269,17 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 6,
-   "prs": []
+   "ramas": 7,
+   "prs": [
+    {
+     "numero": 31,
+     "sha": "7571bd2a37a5813f7e0ee6b48fa84dd29336f402",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 2,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "bianfa-2026/pulpop-web",
