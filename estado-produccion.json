@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-23T15:55:18Z",
+ "actualizado": "2026-10-23T16:10:12Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-10-23T15:45:09Z",
@@ -43,7 +43,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-23T15:55:18Z",
+   "comprobado": "2026-10-23T16:10:12Z",
    "main": {
     "sha": "7653912cc9b5fd7276336712e5b48610f62cbec8",
     "ci": "ok",
@@ -155,13 +155,22 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-23T15:55:18Z",
+   "comprobado": "2026-10-23T16:10:12Z",
    "main": {
-    "sha": "c12e54aaf45cf55e80f55f891d6f63e2b4bb4a84",
+    "sha": "0107c09e2e7a8a38ac76c73a9c5f1d8cc02b7f18",
     "ci": "ok",
-    "fecha": "2026-10-23T15:08:54Z"
+    "fecha": "2026-10-23T16:00:59Z"
    },
    "despliegues": [
+    {
+     "sha": "0107c09e2e7a8a38ac76c73a9c5f1d8cc02b7f18",
+     "resultado": "ok",
+     "inicio": "2026-10-23T16:01:03Z",
+     "fecha": "2026-10-23T16:02:26Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/39983210410",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
     {
      "sha": "c12e54aaf45cf55e80f55f891d6f63e2b4bb4a84",
      "resultado": "ok",
@@ -242,34 +251,17 @@
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/39920978785",
      "evento": "push",
      "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "993a9665012f3fd64eaa032ee51eae57953cb4c4",
-     "resultado": "ok",
-     "inicio": "2026-10-22T21:40:25Z",
-     "fecha": "2026-10-22T21:41:38Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/39859143316",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
     }
    ],
    "ramas": 11,
    "prs": [
-    {
-     "numero": 34,
-     "sha": "4dcc2c5709ec8a1582c10e5d700d371165b824d6",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 1,
-     "atras": 0
-    },
     {
      "numero": 31,
      "sha": "7571bd2a37a5813f7e0ee6b48fa84dd29336f402",
      "borrador": false,
      "ci": "ok",
      "adelante": 2,
-     "atras": 2
+     "atras": 3
     }
    ]
   },
