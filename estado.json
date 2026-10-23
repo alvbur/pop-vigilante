@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-10-23T08:05:33Z",
- "latido": "2026-10-23T08:05:33Z",
+ "actualizado": "2026-10-23T08:10:34Z",
+ "latido": "2026-10-23T08:10:34Z",
  "produccion": [
   {
    "servicio": "API de POP",
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 579,
-   "comprobado": "2026-10-23T08:05:33Z",
+   "latenciaMs": 421,
+   "comprobado": "2026-10-23T08:10:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -17,8 +17,8 @@
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 380,
-   "comprobado": "2026-10-23T08:05:33Z",
+   "latenciaMs": 537,
+   "comprobado": "2026-10-23T08:10:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -27,42 +27,23 @@
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 493,
-   "comprobado": "2026-10-23T08:05:33Z",
+   "latenciaMs": 379,
+   "comprobado": "2026-10-23T08:10:34Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
   {
    "servicio": "Web actual",
    "url": "https://pulpop.io/",
-   "estado": "caido",
-   "codigo": 0,
-   "latenciaMs": 20212,
-   "comprobado": "2026-10-23T08:05:33Z",
-   "caidoDesde": "2026-10-23T08:00:33Z",
-   "caidaConfirmada": true
+   "estado": "ok",
+   "codigo": 200,
+   "latenciaMs": 914,
+   "comprobado": "2026-10-23T08:10:34Z",
+   "caidoDesde": null,
+   "caidaConfirmada": false
   }
  ],
  "historial": [
-  {
-   "t": "2026-10-22T11:31:07Z",
-   "API de POP": [
-    200,
-    460
-   ],
-   "POP (app)": [
-    200,
-    435
-   ],
-   "Web nueva": [
-    200,
-    585
-   ],
-   "Web actual": [
-    200,
-    1000
-   ]
-  },
   {
    "t": "2026-10-22T11:31:56Z",
    "API de POP": [
@@ -1866,6 +1847,25 @@
    "Web actual": [
     0,
     20212
+   ]
+  },
+  {
+   "t": "2026-10-23T08:10:34Z",
+   "API de POP": [
+    200,
+    421
+   ],
+   "POP (app)": [
+    200,
+    537
+   ],
+   "Web nueva": [
+    200,
+    379
+   ],
+   "Web actual": [
+    200,
+    914
    ]
   }
  ]
