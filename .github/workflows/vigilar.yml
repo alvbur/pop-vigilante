@@ -6,6 +6,7 @@ name: Vigilar producción
 # algún servicio o toca latido (cada 30 min), así que solo hay commit cuando hay algo que contar.
 # La concurrencia deja como mucho una ejecución en marcha y otra en cola: nunca hay dos cadenas a la vez. Cada ejecución,
 # nada más empezar, deja ya en cola a la siguiente, así que aunque esta muera de golpe no se queda el relevo sin hacer.
+# 23/10: en cada vuelta, produccion.py rehace estado-produccion.json cada 15 min (lo que daba pop/subida/estado.py en el PC).
 # Para parar la vigilancia del todo: gh workflow disable vigilar.yml (cancelar una ejecución no basta, relanza la siguiente).
 on:
   schedule:
@@ -33,6 +34,11 @@ jobs:
           # Sin SLACK_WEBHOOK (o NTFY_TEMA) el aviso se salta sin fallar.
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           NTFY_TEMA: ${{ secrets.NTFY_TEMA }}
+          # 23/10: estado-produccion.json (repos, CI, PR y despliegues de los 3 repos, solo números) para el panel, cada 15 min.
+          # Llave fine-grained de solo lectura; sin ella el archivo sale igual, con la producción y «falta la llave» en cada repo.
+          REPOS_TOKEN: ${{ secrets.REPOS_TOKEN }}
+          WEB_TOKEN: ${{ secrets.WEB_TOKEN }}
+          REPOS_CADA_S: "900"
           VUELTA_S: "300"
           DURACION_S: "20700"
         run: |
@@ -58,7 +64,9 @@ jobs:
             # Parte de lo último publicado (y recoge cambios de vigilar.py si se fusionó algo mientras tanto).
             git fetch -q origin "$rama" && git reset -q --hard FETCH_HEAD || echo "::warning::no pude sincronizar con origin, sigo con lo que hay"
             python3 vigilar.py || echo "::warning::vigilar.py falló en la vuelta $n, sigo"
+            [ -f produccion.py ] && { python3 produccion.py || echo "::warning::produccion.py falló en la vuelta $n, sigo"; }
             git add estado.json
+            [ -f estado-produccion.json ] && git add estado-produccion.json
             if ! git diff --cached --quiet; then
               git commit -q -m "estado $(date -u +%H:%M)" || echo "::warning::no pude hacer commit en la vuelta $n"
               publicar && echo "estado.json publicado" || echo "::warning::no pude publicar estado.json en la vuelta $n; se reintenta en la siguiente"
