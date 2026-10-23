@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-10-23T05:10:33Z",
- "latido": "2026-10-23T05:10:33Z",
+ "actualizado": "2026-10-23T05:15:33Z",
+ "latido": "2026-10-23T05:15:33Z",
  "produccion": [
   {
    "servicio": "API de POP",
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 369,
-   "comprobado": "2026-10-23T05:10:33Z",
+   "latenciaMs": 463,
+   "comprobado": "2026-10-23T05:15:33Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -17,8 +17,8 @@
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 427,
-   "comprobado": "2026-10-23T05:10:33Z",
+   "latenciaMs": 325,
+   "comprobado": "2026-10-23T05:15:33Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -27,42 +27,23 @@
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 293,
-   "comprobado": "2026-10-23T05:10:33Z",
+   "latenciaMs": 306,
+   "comprobado": "2026-10-23T05:15:33Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
   {
    "servicio": "Web actual",
    "url": "https://pulpop.io/",
-   "estado": "caido",
-   "codigo": 0,
-   "latenciaMs": 20379,
-   "comprobado": "2026-10-23T05:10:33Z",
-   "caidoDesde": "2026-10-23T05:05:34Z",
-   "caidaConfirmada": true
+   "estado": "ok",
+   "codigo": 200,
+   "latenciaMs": 748,
+   "comprobado": "2026-10-23T05:15:33Z",
+   "caidoDesde": null,
+   "caidaConfirmada": false
   }
  ],
  "historial": [
-  {
-   "t": "2026-10-22T11:18:04Z",
-   "API de POP": [
-    200,
-    503
-   ],
-   "POP (app)": [
-    200,
-    388
-   ],
-   "Web nueva": [
-    200,
-    285
-   ],
-   "Web actual": [
-    200,
-    1066
-   ]
-  },
   {
    "t": "2026-10-22T11:18:52Z",
    "API de POP": [
@@ -1866,6 +1847,25 @@
    "Web actual": [
     0,
     20379
+   ]
+  },
+  {
+   "t": "2026-10-23T05:15:33Z",
+   "API de POP": [
+    200,
+    463
+   ],
+   "POP (app)": [
+    200,
+    325
+   ],
+   "Web nueva": [
+    200,
+    306
+   ],
+   "Web actual": [
+    200,
+    748
    ]
   }
  ]
