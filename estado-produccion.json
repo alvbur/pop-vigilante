@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-24T19:56:09Z",
+ "actualizado": "2026-10-24T20:11:10Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-10-24T19:56:05Z",
@@ -43,7 +43,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-24T19:56:09Z",
+   "comprobado": "2026-10-24T20:11:10Z",
    "main": {
     "sha": "f20425073d2fcabb2562da298a94f4dfe7c6e816",
     "ci": "ok",
@@ -141,12 +141,21 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 20,
-   "prs": []
+   "ramas": 21,
+   "prs": [
+    {
+     "numero": 77,
+     "sha": "6ac90a9d00bf0b0eaf0ea992357f90326be08ebe",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 1,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-24T19:56:09Z",
+   "comprobado": "2026-10-24T20:11:10Z",
    "main": {
     "sha": "b6df6fbfab010b98f7c356cf69ec9015860e8ab5",
     "ci": "ok",
@@ -244,8 +253,17 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 16,
-   "prs": []
+   "ramas": 17,
+   "prs": [
+    {
+     "numero": 40,
+     "sha": "a85d4ca706133b2f95adbbeb8d43e650e8e3f345",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 1,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "bianfa-2026/pulpop-web",
