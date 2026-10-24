@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-24T12:10:57Z",
+ "actualizado": "2026-10-24T12:25:57Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-10-24T12:05:54Z",
@@ -43,7 +43,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-24T12:10:57Z",
+   "comprobado": "2026-10-24T12:25:57Z",
    "main": {
     "sha": "23909076aaaa8910ccd763bf9fe507cee61966a6",
     "ci": "sin",
@@ -155,18 +155,27 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-24T12:10:57Z",
+   "comprobado": "2026-10-24T12:25:57Z",
    "main": {
-    "sha": "bea7e6c38d5dead6d8e80bac9f0e658478b4164b",
-    "ci": "en_curso",
-    "fecha": "2026-10-24T12:10:53Z"
+    "sha": "3dfdc7b0e96f2707acd32a026a3e658076552bdb",
+    "ci": "ok",
+    "fecha": "2026-10-24T12:11:07Z"
    },
    "despliegues": [
     {
+     "sha": "3dfdc7b0e96f2707acd32a026a3e658076552bdb",
+     "resultado": "ok",
+     "inicio": "2026-10-24T12:11:10Z",
+     "fecha": "2026-10-24T12:12:14Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/40092888873",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
+    {
      "sha": "bea7e6c38d5dead6d8e80bac9f0e658478b4164b",
-     "resultado": "en_curso",
+     "resultado": "ok",
      "inicio": "2026-10-24T12:10:56Z",
-     "fecha": "2026-10-24T12:10:56Z",
+     "fecha": "2026-10-24T12:12:20Z",
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/40092872971",
      "evento": "push",
      "workflow": "Build & Push Frontend"
@@ -242,34 +251,17 @@
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/39928262221",
      "evento": "push",
      "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "159aec230e12a67b2fe64687b9940d62ea050eac",
-     "resultado": "ok",
-     "inicio": "2026-10-23T08:00:49Z",
-     "fecha": "2026-10-23T08:02:00Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/39921652734",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
     }
    ],
    "ramas": 13,
    "prs": [
-    {
-     "numero": 36,
-     "sha": "a0c2efe16822bb028441534f2088839a723db7a8",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 1,
-     "atras": 1
-    },
     {
      "numero": 31,
      "sha": "7571bd2a37a5813f7e0ee6b48fa84dd29336f402",
      "borrador": false,
      "ci": "ok",
      "adelante": 2,
-     "atras": 4
+     "atras": 5
     }
    ]
   },
