@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-10-24T19:11:10Z",
+ "actualizado": "2026-10-24T19:26:08Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-10-24T18:56:05Z",
-  "latido": "2026-10-24T18:56:05Z"
+  "actualizado": "2026-10-24T19:26:05Z",
+  "latido": "2026-10-24T19:26:05Z"
  },
  "produccion": [
   {
@@ -12,38 +12,38 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 506,
-   "comprobado": "2026-10-24T18:56:05Z"
+   "latenciaMs": 581,
+   "comprobado": "2026-10-24T19:26:05Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 479,
-   "comprobado": "2026-10-24T18:56:05Z"
+   "latenciaMs": 450,
+   "comprobado": "2026-10-24T19:26:05Z"
   },
   {
    "servicio": "Web nueva",
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 556,
-   "comprobado": "2026-10-24T18:56:05Z"
+   "latenciaMs": 661,
+   "comprobado": "2026-10-24T19:26:05Z"
   },
   {
    "servicio": "Web actual",
    "url": "https://pulpop.io/",
-   "estado": "aviso",
+   "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 3543,
-   "comprobado": "2026-10-24T18:56:05Z"
+   "latenciaMs": 866,
+   "comprobado": "2026-10-24T19:26:05Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-24T19:11:10Z",
+   "comprobado": "2026-10-24T19:26:08Z",
    "main": {
     "sha": "f20425073d2fcabb2562da298a94f4dfe7c6e816",
     "ci": "ok",
@@ -146,18 +146,18 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-24T19:11:10Z",
+   "comprobado": "2026-10-24T19:26:08Z",
    "main": {
     "sha": "b6df6fbfab010b98f7c356cf69ec9015860e8ab5",
-    "ci": "en_curso",
+    "ci": "ok",
     "fecha": "2026-10-24T19:10:37Z"
    },
    "despliegues": [
     {
      "sha": "b6df6fbfab010b98f7c356cf69ec9015860e8ab5",
-     "resultado": "en_curso",
+     "resultado": "ok",
      "inicio": "2026-10-24T19:10:40Z",
-     "fecha": "2026-10-24T19:10:40Z",
+     "fecha": "2026-10-24T19:11:59Z",
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/40124095186",
      "evento": "push",
      "workflow": "Build & Push Frontend"
