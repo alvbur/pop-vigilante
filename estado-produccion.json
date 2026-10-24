@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-24T16:25:58Z",
+ "actualizado": "2026-10-24T16:40:58Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-10-24T16:15:56Z",
@@ -43,7 +43,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-24T16:25:58Z",
+   "comprobado": "2026-10-24T16:40:58Z",
    "main": {
     "sha": "23909076aaaa8910ccd763bf9fe507cee61966a6",
     "ci": "sin",
@@ -155,7 +155,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-24T16:25:58Z",
+   "comprobado": "2026-10-24T16:40:58Z",
    "main": {
     "sha": "0fb9c3b6e800b06a90ab29d42894e27aef0f7204",
     "ci": "ok",
