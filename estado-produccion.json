@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-24T16:56:10Z",
+ "actualizado": "2026-10-24T17:11:07Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-10-24T16:50:55Z",
@@ -43,7 +43,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-24T16:56:10Z",
+   "comprobado": "2026-10-24T17:11:07Z",
    "main": {
     "sha": "23909076aaaa8910ccd763bf9fe507cee61966a6",
     "ci": "sin",
@@ -141,8 +141,16 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 18,
+   "ramas": 19,
    "prs": [
+    {
+     "numero": 69,
+     "sha": "cc2f32a28e6feaf58f5e341cf63ee9ad9b5de61e",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    },
     {
      "numero": 48,
      "sha": "e147a7380d3f5bd6ebd6d0fd79f4465e06dc8469",
@@ -155,7 +163,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-24T16:56:10Z",
+   "comprobado": "2026-10-24T17:11:07Z",
    "main": {
     "sha": "0fb9c3b6e800b06a90ab29d42894e27aef0f7204",
     "ci": "ok",
