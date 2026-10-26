@@ -1,14 +1,14 @@
 {
- "actualizado": "2026-10-26T20:47:45Z",
- "latido": "2026-10-26T20:47:45Z",
+ "actualizado": "2026-10-26T21:17:45Z",
+ "latido": "2026-10-26T21:17:45Z",
  "produccion": [
   {
    "servicio": "API de POP",
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 648,
-   "comprobado": "2026-10-26T20:47:45Z",
+   "latenciaMs": 555,
+   "comprobado": "2026-10-26T21:17:45Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -17,8 +17,8 @@
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 466,
-   "comprobado": "2026-10-26T20:47:45Z",
+   "latenciaMs": 487,
+   "comprobado": "2026-10-26T21:17:45Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -27,8 +27,8 @@
    "url": "https://nuevo.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 541,
-   "comprobado": "2026-10-26T20:47:45Z",
+   "latenciaMs": 455,
+   "comprobado": "2026-10-26T21:17:45Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   },
@@ -37,32 +37,13 @@
    "url": "https://pulpop.io/",
    "estado": "aviso",
    "codigo": 200,
-   "latenciaMs": 2842,
-   "comprobado": "2026-10-26T20:47:45Z",
+   "latenciaMs": 2789,
+   "comprobado": "2026-10-26T21:17:45Z",
    "caidoDesde": null,
    "caidaConfirmada": false
   }
  ],
  "historial": [
-  {
-   "t": "2026-10-24T20:26:05Z",
-   "API de POP": [
-    200,
-    582
-   ],
-   "POP (app)": [
-    200,
-    609
-   ],
-   "Web nueva": [
-    200,
-    454
-   ],
-   "Web actual": [
-    200,
-    883
-   ]
-  },
   {
    "t": "2026-10-24T20:56:05Z",
    "API de POP": [
@@ -1866,6 +1847,25 @@
    "Web actual": [
     200,
     2842
+   ]
+  },
+  {
+   "t": "2026-10-26T21:17:45Z",
+   "API de POP": [
+    200,
+    555
+   ],
+   "POP (app)": [
+    200,
+    487
+   ],
+   "Web nueva": [
+    200,
+    455
+   ],
+   "Web actual": [
+    200,
+    2789
    ]
   }
  ]
