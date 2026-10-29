@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-10-29T17:29:52Z",
+ "actualizado": "2026-10-29T17:45:04Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-10-29T17:14:51Z",
-  "latido": "2026-10-29T17:14:51Z"
+  "actualizado": "2026-10-29T17:45:02Z",
+  "latido": "2026-10-29T17:45:02Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 348,
-   "comprobado": "2026-10-29T17:14:51Z"
+   "latenciaMs": 412,
+   "comprobado": "2026-10-29T17:45:02Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 290,
-   "comprobado": "2026-10-29T17:14:51Z"
+   "latenciaMs": 341,
+   "comprobado": "2026-10-29T17:45:02Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 407,
-   "comprobado": "2026-10-29T17:14:51Z"
+   "latenciaMs": 335,
+   "comprobado": "2026-10-29T17:45:02Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-29T17:29:52Z",
+   "comprobado": "2026-10-29T17:45:04Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "ok",
@@ -133,7 +133,7 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 27,
+   "ramas": 28,
    "prs": [
     {
      "numero": 91,
@@ -147,7 +147,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-29T17:29:52Z",
+   "comprobado": "2026-10-29T17:45:04Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
     "ci": "ok",
@@ -245,14 +245,14 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 27,
+   "ramas": 28,
    "prs": [
     {
      "numero": 51,
-     "sha": "f885d7cf7669fa7ecfed371737fffdb3aed203b0",
+     "sha": "be7ac5ebe154b566369dbacdea957d91c5e2d7a4",
      "borrador": false,
      "ci": "fallo",
-     "adelante": 1,
+     "adelante": 2,
      "atras": 0
     },
     {
