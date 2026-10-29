@@ -7,8 +7,9 @@ import json, os, time, urllib.request, datetime
 SERVICIOS = [
     ("API de POP", "https://api.pulpop.io/api/health"),
     ("POP (app)", "https://pop.pulpop.io/"),
-    ("Web nueva", "https://nuevo.pulpop.io/"),
-    ("Web actual", "https://pulpop.io/"),
+    # La web de Pulpop migró a pulpop.io el 28/10/2026: ya no hay «web nueva» y «web actual» distintas, solo «Web»
+    # (cambiado el 29/10/2026; nuevo.pulpop.io deja de vigilarse, pasará a ser una redirección 301)
+    ("Web", "https://pulpop.io/"),
 ]
 LENTO_MS = 1500
 LATIDO_S = 30 * 60
