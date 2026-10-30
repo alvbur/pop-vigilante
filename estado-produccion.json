@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-10-30T16:00:38Z",
+ "actualizado": "2026-10-30T16:15:38Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-10-30T15:45:36Z",
-  "latido": "2026-10-30T15:45:36Z"
+  "actualizado": "2026-10-30T16:15:37Z",
+  "latido": "2026-10-30T16:15:37Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 543,
-   "comprobado": "2026-10-30T15:45:36Z"
+   "latenciaMs": 651,
+   "comprobado": "2026-10-30T16:15:37Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 509,
-   "comprobado": "2026-10-30T15:45:36Z"
+   "latenciaMs": 446,
+   "comprobado": "2026-10-30T16:15:37Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 506,
-   "comprobado": "2026-10-30T15:45:36Z"
+   "latenciaMs": 508,
+   "comprobado": "2026-10-30T16:15:37Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-30T16:00:38Z",
+   "comprobado": "2026-10-30T16:15:38Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "ok",
@@ -133,8 +133,16 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 34,
+   "ramas": 35,
    "prs": [
+    {
+     "numero": 99,
+     "sha": "2e99365cc92583284bb9602ed0f6ecc715a53c48",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 7,
+     "atras": 0
+    },
     {
      "numero": 98,
      "sha": "4d101e619b98c7780f43bdbe430a5893ea565e16",
@@ -203,7 +211,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-30T16:00:38Z",
+   "comprobado": "2026-10-30T16:15:38Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
     "ci": "ok",
@@ -313,10 +321,10 @@
     },
     {
      "numero": 57,
-     "sha": "16f9e61b94219fce27fa2c25c71747b51acfcfcf",
+     "sha": "d7a963466ad8fb030a144098c2fc09b86f67f417",
      "borrador": false,
      "ci": "fallo",
-     "adelante": 3,
+     "adelante": 4,
      "atras": 0
     },
     {
