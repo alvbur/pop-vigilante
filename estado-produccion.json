@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-10-30T13:00:38Z",
+ "actualizado": "2026-10-30T13:15:38Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-10-30T12:30:37Z",
-  "latido": "2026-10-30T12:30:37Z"
+  "actualizado": "2026-10-30T13:05:37Z",
+  "latido": "2026-10-30T13:05:37Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 598,
-   "comprobado": "2026-10-30T12:30:37Z"
+   "latenciaMs": 548,
+   "comprobado": "2026-10-30T13:05:37Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 512,
-   "comprobado": "2026-10-30T12:30:37Z"
+   "latenciaMs": 712,
+   "comprobado": "2026-10-30T13:05:37Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 508,
-   "comprobado": "2026-10-30T12:30:37Z"
+   "latenciaMs": 509,
+   "comprobado": "2026-10-30T13:05:37Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-30T13:00:38Z",
+   "comprobado": "2026-10-30T13:15:38Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "ok",
@@ -137,10 +137,10 @@
    "prs": [
     {
      "numero": 94,
-     "sha": "4604ce0dab13a6bef18aa2a28fdcd38cd9717e58",
+     "sha": "352fe38bcc838aa0a4fc447d35c4f89e0f951b09",
      "borrador": false,
      "ci": "fallo",
-     "adelante": 7,
+     "adelante": 8,
      "atras": 0
     },
     {
@@ -171,7 +171,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-30T13:00:38Z",
+   "comprobado": "2026-10-30T13:15:38Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
     "ci": "ok",
@@ -273,10 +273,10 @@
    "prs": [
     {
      "numero": 54,
-     "sha": "f59729b9d7e3b916963ff1c1dc5927f2ac7831fc",
+     "sha": "3dc082a3ca9cdd360ba8171c90bfbf3e1cbc21b2",
      "borrador": false,
      "ci": "fallo",
-     "adelante": 1,
+     "adelante": 2,
      "atras": 0
     },
     {
