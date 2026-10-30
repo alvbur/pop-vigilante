@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-30T22:46:03Z",
+ "actualizado": "2026-10-30T23:01:03Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-10-30T22:36:02Z",
@@ -35,7 +35,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-30T22:46:03Z",
+   "comprobado": "2026-10-30T23:01:03Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "sin",
@@ -133,8 +133,24 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 41,
+   "ramas": 43,
    "prs": [
+    {
+     "numero": 107,
+     "sha": "3128a28a4891d04397603b3d5382afa25cd5924d",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 9,
+     "atras": 0
+    },
+    {
+     "numero": 106,
+     "sha": "0b2f8a1a9bde78806e34f8d9b509ee06fcf5f875",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 15,
+     "atras": 0
+    },
     {
      "numero": 105,
      "sha": "ff014ef0c7a0ed8328a484a674506c43e3f9821c",
@@ -259,10 +275,10 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-30T22:46:03Z",
+   "comprobado": "2026-10-30T23:01:03Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
-    "ci": "ok",
+    "ci": "sin",
     "fecha": "2026-10-29T12:25:49Z"
    },
    "despliegues": [
@@ -357,8 +373,32 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 41,
+   "ramas": 44,
    "prs": [
+    {
+     "numero": 68,
+     "sha": "ec04a6ea3f49f551479f6700397dbdcad442b97b",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 6,
+     "atras": 0
+    },
+    {
+     "numero": 67,
+     "sha": "a145464409788bd81ebb6883df656c6889cecf68",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 12,
+     "atras": 0
+    },
+    {
+     "numero": 66,
+     "sha": "9b323a33a15575e1544f308f1168a1eb493e4509",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 10,
+     "atras": 0
+    },
     {
      "numero": 65,
      "sha": "e1467d52cd32debb4e1f03ae8dcea8051e419e94",
