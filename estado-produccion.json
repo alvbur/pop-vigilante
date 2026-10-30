@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-10-30T22:31:03Z",
+ "actualizado": "2026-10-30T22:46:03Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-10-30T22:05:49Z",
-  "latido": "2026-10-30T22:05:49Z"
+  "actualizado": "2026-10-30T22:36:02Z",
+  "latido": "2026-10-30T22:36:02Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 628,
-   "comprobado": "2026-10-30T22:05:49Z"
+   "latenciaMs": 433,
+   "comprobado": "2026-10-30T22:36:02Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 463,
-   "comprobado": "2026-10-30T22:05:49Z"
+   "latenciaMs": 482,
+   "comprobado": "2026-10-30T22:36:02Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 640,
-   "comprobado": "2026-10-30T22:05:49Z"
+   "latenciaMs": 383,
+   "comprobado": "2026-10-30T22:36:02Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-30T22:31:03Z",
+   "comprobado": "2026-10-30T22:46:03Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "sin",
@@ -259,7 +259,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-30T22:31:03Z",
+   "comprobado": "2026-10-30T22:46:03Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
     "ci": "ok",
@@ -357,8 +357,24 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 39,
+   "ramas": 41,
    "prs": [
+    {
+     "numero": 65,
+     "sha": "e1467d52cd32debb4e1f03ae8dcea8051e419e94",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 6,
+     "atras": 0
+    },
+    {
+     "numero": 64,
+     "sha": "33534e6fcb3e63ad1d7db39a00837bfb8b53c993",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 6,
+     "atras": 0
+    },
     {
      "numero": 63,
      "sha": "b4d70d9bb719ff3e2ce8ba1769872970d993d74b",
