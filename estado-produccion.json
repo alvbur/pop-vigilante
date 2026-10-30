@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-10-30T17:15:50Z",
+ "actualizado": "2026-10-30T17:30:51Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-10-30T17:15:48Z",
@@ -35,7 +35,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-30T17:15:50Z",
+   "comprobado": "2026-10-30T17:30:51Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "ok",
@@ -133,8 +133,32 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 36,
+   "ramas": 39,
    "prs": [
+    {
+     "numero": 103,
+     "sha": "92ede4ec2aec9024f823ff1e004e8ba684a35786",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 6,
+     "atras": 0
+    },
+    {
+     "numero": 102,
+     "sha": "26aa85c15c869a47f440af8155f8a4b654c6eaa8",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 7,
+     "atras": 0
+    },
+    {
+     "numero": 101,
+     "sha": "9a5f0b97e3e07a949149523f38373db12940725b",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 6,
+     "atras": 0
+    },
     {
      "numero": 100,
      "sha": "f7c7d1270614d1fb5937ff1b66477473abadae45",
@@ -161,10 +185,10 @@
     },
     {
      "numero": 97,
-     "sha": "3356b4ad315e4842e60025b57aae44b1e9590ef9",
+     "sha": "997b9b1783f3cb69da8cbbbe86406c3b2888ffa3",
      "borrador": false,
      "ci": "fallo",
-     "adelante": 12,
+     "adelante": 15,
      "atras": 0
     },
     {
@@ -219,7 +243,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-30T17:15:50Z",
+   "comprobado": "2026-10-30T17:30:51Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
     "ci": "ok",
@@ -317,8 +341,24 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 36,
+   "ramas": 38,
    "prs": [
+    {
+     "numero": 62,
+     "sha": "620158dbb8e1c8e1459b1aa3368fde3c0a1334a1",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 3,
+     "atras": 0
+    },
+    {
+     "numero": 61,
+     "sha": "1843a33c145610231da62ce67c250bcc8700954e",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 5,
+     "atras": 0
+    },
     {
      "numero": 60,
      "sha": "eb8697c7bb17ebcec6409f7a3a9c8befa63a59ec",
