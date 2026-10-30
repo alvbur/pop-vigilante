@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-10-30T10:45:27Z",
+ "actualizado": "2026-10-30T11:00:39Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-10-30T10:30:25Z",
-  "latido": "2026-10-30T10:30:25Z"
+  "actualizado": "2026-10-30T11:00:37Z",
+  "latido": "2026-10-30T11:00:37Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 337,
-   "comprobado": "2026-10-30T10:30:25Z"
+   "latenciaMs": 852,
+   "comprobado": "2026-10-30T11:00:37Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 391,
-   "comprobado": "2026-10-30T10:30:25Z"
+   "latenciaMs": 644,
+   "comprobado": "2026-10-30T11:00:37Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 387,
-   "comprobado": "2026-10-30T10:30:25Z"
+   "latenciaMs": 518,
+   "comprobado": "2026-10-30T11:00:37Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-30T10:45:27Z",
+   "comprobado": "2026-10-30T11:00:39Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "ok",
@@ -136,6 +136,14 @@
    "ramas": 30,
    "prs": [
     {
+     "numero": 94,
+     "sha": "4604ce0dab13a6bef18aa2a28fdcd38cd9717e58",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 7,
+     "atras": 0
+    },
+    {
      "numero": 93,
      "sha": "d0016e21496f1408ba6bc35c7e706d037e6981b6",
      "borrador": false,
@@ -163,7 +171,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-30T10:45:27Z",
+   "comprobado": "2026-10-30T11:00:39Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
     "ci": "ok",
@@ -263,6 +271,14 @@
    ],
    "ramas": 30,
    "prs": [
+    {
+     "numero": 54,
+     "sha": "f59729b9d7e3b916963ff1c1dc5927f2ac7831fc",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 1,
+     "atras": 0
+    },
     {
      "numero": 53,
      "sha": "914cab52baa7797d969bac20a4990877cd3289d0",
