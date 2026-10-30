@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-10-30T21:15:50Z",
+ "actualizado": "2026-10-30T21:30:51Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-10-30T21:00:48Z",
-  "latido": "2026-10-30T21:00:48Z"
+  "actualizado": "2026-10-30T21:30:49Z",
+  "latido": "2026-10-30T21:30:49Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 821,
-   "comprobado": "2026-10-30T21:00:48Z"
+   "latenciaMs": 573,
+   "comprobado": "2026-10-30T21:30:49Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 646,
-   "comprobado": "2026-10-30T21:00:48Z"
+   "latenciaMs": 462,
+   "comprobado": "2026-10-30T21:30:49Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 589,
-   "comprobado": "2026-10-30T21:00:48Z"
+   "latenciaMs": 641,
+   "comprobado": "2026-10-30T21:30:49Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-10-30T21:15:50Z",
+   "comprobado": "2026-10-30T21:30:51Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "sin",
@@ -133,8 +133,16 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 39,
+   "ramas": 40,
    "prs": [
+    {
+     "numero": 104,
+     "sha": "c40284b47a9478d420e59200f5059208cd5e6943",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 8,
+     "atras": 0
+    },
     {
      "numero": 103,
      "sha": "712ef6c2981142444f40ff6de7b8fb9272c6b5d9",
@@ -243,7 +251,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-10-30T21:15:50Z",
+   "comprobado": "2026-10-30T21:30:51Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
     "ci": "ok",
@@ -404,8 +412,8 @@
      "sha": "569f32ba77a4f449da5975755ba3c92e76d6dcd3",
      "borrador": false,
      "ci": "fallo",
-     "adelante": null,
-     "atras": null
+     "adelante": 3,
+     "atras": 0
     },
     {
      "numero": 54,
