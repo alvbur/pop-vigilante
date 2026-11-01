@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-01T18:02:16Z",
+ "actualizado": "2026-11-01T18:17:16Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-11-01T18:02:15Z",
@@ -35,13 +35,22 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-01T18:02:16Z",
+   "comprobado": "2026-11-01T18:17:16Z",
    "main": {
-    "sha": "e4076fb66801a398c19ffcf199c6cc81199cbf50",
+    "sha": "6b3e77649deb11efaf39c7555bb5a677e34d22be",
     "ci": "ok",
-    "fecha": "2026-11-01T17:36:34Z"
+    "fecha": "2026-11-01T18:09:26Z"
    },
    "despliegues": [
+    {
+     "sha": "6b3e77649deb11efaf39c7555bb5a677e34d22be",
+     "resultado": "ok",
+     "inicio": "2026-11-01T18:09:29Z",
+     "fecha": "2026-11-01T18:13:48Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/41335136793",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
     {
      "sha": "e4076fb66801a398c19ffcf199c6cc81199cbf50",
      "resultado": "ok",
@@ -122,25 +131,16 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/40129180814",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "f20425073d2fcabb2562da298a94f4dfe7c6e816",
-     "resultado": "ok",
-     "inicio": "2026-10-24T19:01:26Z",
-     "fecha": "2026-10-24T19:06:05Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/40123384196",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 47,
    "prs": [
     {
-     "numero": 110,
-     "sha": "9938d84bf2d63462e00605b3e73154664afacc65",
+     "numero": 114,
+     "sha": "af9cbce5ab6dc24eb6c41aa2786e1b38078dc8f4",
      "borrador": false,
      "ci": "ok",
-     "adelante": 2,
+     "adelante": 4,
      "atras": 3
     },
     {
@@ -149,7 +149,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 107,
@@ -157,7 +157,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 105,
@@ -165,7 +165,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 22
+     "atras": 25
     },
     {
      "numero": 104,
@@ -173,7 +173,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 103,
@@ -181,7 +181,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 102,
@@ -189,7 +189,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 101,
@@ -197,7 +197,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 100,
@@ -205,7 +205,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 99,
@@ -213,7 +213,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 98,
@@ -221,7 +221,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 97,
@@ -229,7 +229,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 15,
-     "atras": 22
+     "atras": 25
     },
     {
      "numero": 96,
@@ -237,7 +237,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 95,
@@ -245,7 +245,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 17
+     "atras": 20
     },
     {
      "numero": 94,
@@ -253,7 +253,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 8,
-     "atras": 22
+     "atras": 25
     },
     {
      "numero": 93,
@@ -261,7 +261,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 22
+     "atras": 25
     },
     {
      "numero": 92,
@@ -269,13 +269,13 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 22
+     "atras": 25
     }
    ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-01T18:02:16Z",
+   "comprobado": "2026-11-01T18:17:16Z",
    "main": {
     "sha": "283a17f06f03b454e846f70d2eff85ebfe5ca622",
     "ci": "ok",
