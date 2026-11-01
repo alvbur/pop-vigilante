@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-01T21:02:26Z",
+ "actualizado": "2026-11-01T21:17:26Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-01T20:42:24Z",
-  "latido": "2026-11-01T20:42:24Z"
+  "actualizado": "2026-11-01T21:12:24Z",
+  "latido": "2026-11-01T21:12:24Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 484,
-   "comprobado": "2026-11-01T20:42:24Z"
+   "latenciaMs": 337,
+   "comprobado": "2026-11-01T21:12:24Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 318,
-   "comprobado": "2026-11-01T20:42:24Z"
+   "latenciaMs": 306,
+   "comprobado": "2026-11-01T21:12:24Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 315,
-   "comprobado": "2026-11-01T20:42:24Z"
+   "latenciaMs": 307,
+   "comprobado": "2026-11-01T21:12:24Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-01T21:02:26Z",
+   "comprobado": "2026-11-01T21:17:26Z",
    "main": {
     "sha": "4e9c8b35077d5c7577fa5980fec9c6694b9ddb00",
     "ci": "ok",
@@ -138,18 +138,18 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-01T21:02:26Z",
+   "comprobado": "2026-11-01T21:17:26Z",
    "main": {
     "sha": "081938afd90344c55472712d9b2533c3a9c682a0",
-    "ci": "en_curso",
+    "ci": "ok",
     "fecha": "2026-11-01T21:00:59Z"
    },
    "despliegues": [
     {
      "sha": "081938afd90344c55472712d9b2533c3a9c682a0",
-     "resultado": "en_curso",
+     "resultado": "ok",
      "inicio": "2026-11-01T21:01:02Z",
-     "fecha": "2026-11-01T21:01:02Z",
+     "fecha": "2026-11-01T21:03:15Z",
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/41349777768",
      "evento": "push",
      "workflow": "Build & Push Frontend"
