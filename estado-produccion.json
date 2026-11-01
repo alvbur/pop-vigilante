@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-01T17:02:16Z",
+ "actualizado": "2026-11-01T17:17:16Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-11-01T17:02:14Z",
@@ -35,13 +35,22 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-01T17:02:16Z",
+   "comprobado": "2026-11-01T17:17:16Z",
    "main": {
-    "sha": "69c3f0b1687fcade72bb9ef7291f5b8dbba83344",
+    "sha": "6dfc76ac0a5af4cbf706bfe83c5cd519f674db7a",
     "ci": "ok",
-    "fecha": "2026-11-01T16:43:06Z"
+    "fecha": "2026-11-01T17:10:15Z"
    },
    "despliegues": [
+    {
+     "sha": "6dfc76ac0a5af4cbf706bfe83c5cd519f674db7a",
+     "resultado": "ok",
+     "inicio": "2026-11-01T17:10:18Z",
+     "fecha": "2026-11-01T17:13:46Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/41330091375",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
     {
      "sha": "69c3f0b1687fcade72bb9ef7291f5b8dbba83344",
      "resultado": "ok",
@@ -122,15 +131,6 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/40121986325",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "b7ecfc8fa0dade6112a38fbf4913a42c78d66498",
-     "resultado": "ok",
-     "inicio": "2026-10-24T18:03:01Z",
-     "fecha": "2026-10-24T18:06:19Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/40118908075",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 46,
@@ -140,16 +140,16 @@
      "sha": "9938d84bf2d63462e00605b3e73154664afacc65",
      "borrador": false,
      "ci": "ok",
-     "adelante": 16,
-     "atras": 1
+     "adelante": 6,
+     "atras": 2
     },
     {
      "numero": 109,
      "sha": "760bc1388614c7403d669163a09ba223953857b8",
      "borrador": false,
      "ci": "ok",
-     "adelante": 14,
-     "atras": 1
+     "adelante": 4,
+     "atras": 2
     },
     {
      "numero": 108,
@@ -157,7 +157,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 107,
@@ -165,15 +165,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 1
-    },
-    {
-     "numero": 106,
-     "sha": "0b2f8a1a9bde78806e34f8d9b509ee06fcf5f875",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 10,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 105,
@@ -181,7 +173,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 6
+     "atras": 17
     },
     {
      "numero": 104,
@@ -189,7 +181,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 103,
@@ -197,7 +189,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 102,
@@ -205,7 +197,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 101,
@@ -213,7 +205,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 100,
@@ -221,7 +213,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 99,
@@ -229,7 +221,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 98,
@@ -237,7 +229,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 97,
@@ -245,7 +237,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 15,
-     "atras": 6
+     "atras": 17
     },
     {
      "numero": 96,
@@ -253,7 +245,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 95,
@@ -261,7 +253,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 1
+     "atras": 12
     },
     {
      "numero": 94,
@@ -269,7 +261,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 8,
-     "atras": 6
+     "atras": 17
     },
     {
      "numero": 93,
@@ -277,7 +269,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 6
+     "atras": 17
     },
     {
      "numero": 92,
@@ -285,19 +277,37 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 6
+     "atras": 17
     }
    ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-01T17:02:16Z",
+   "comprobado": "2026-11-01T17:17:16Z",
    "main": {
-    "sha": "6ffed3ac609e3cf74ea23d32119596ccf432fc04",
+    "sha": "6512ebf09ae5f743f38ea94a9e456c0b1d1108f9",
     "ci": "ok",
-    "fecha": "2026-11-01T16:50:38Z"
+    "fecha": "2026-11-01T17:15:43Z"
    },
    "despliegues": [
+    {
+     "sha": "6512ebf09ae5f743f38ea94a9e456c0b1d1108f9",
+     "resultado": "ok",
+     "inicio": "2026-11-01T17:15:46Z",
+     "fecha": "2026-11-01T17:17:21Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/41330565793",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
+    {
+     "sha": "864ef1b53409df3ce83c7d99e3dd4ab7fc070cff",
+     "resultado": "ok",
+     "inicio": "2026-11-01T17:03:46Z",
+     "fecha": "2026-11-01T17:05:18Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/41329500925",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
     {
      "sha": "6ffed3ac609e3cf74ea23d32119596ccf432fc04",
      "resultado": "ok",
@@ -369,35 +379,25 @@
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/40124095186",
      "evento": "push",
      "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "241b7ced0df7b694d85b0d0af362cd078c7cb0b9",
-     "resultado": "ok",
-     "inicio": "2026-10-24T18:50:44Z",
-     "fecha": "2026-10-24T18:52:09Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/40122569077",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "c65d20415a52f55903ca48b7bc6fbbc2e1f6d5ec",
-     "resultado": "ok",
-     "inicio": "2026-10-24T18:10:41Z",
-     "fecha": "2026-10-24T18:11:45Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/40119499939",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 46,
+   "ramas": 47,
    "prs": [
+    {
+     "numero": 71,
+     "sha": "c3160c368ae56621b9752f08980ccaf0f5897cc3",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 12
+    },
     {
      "numero": 70,
      "sha": "35ef9d1ce8c8e7ab1b4beff17b2eceec20821eb1",
      "borrador": false,
      "ci": "ok",
-     "adelante": 19,
-     "atras": 1
+     "adelante": 9,
+     "atras": 3
     },
     {
      "numero": 69,
@@ -405,7 +405,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 4,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 68,
@@ -413,23 +413,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 1
-    },
-    {
-     "numero": 67,
-     "sha": "23e8c90214f2d0f0d08eed4cb0f84644250ea0ce",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 10,
-     "atras": 1
-    },
-    {
-     "numero": 66,
-     "sha": "9b323a33a15575e1544f308f1168a1eb493e4509",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 8,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 65,
@@ -437,7 +421,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 64,
@@ -445,7 +429,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 63,
@@ -453,7 +437,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 62,
@@ -461,7 +445,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 61,
@@ -469,7 +453,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 60,
@@ -477,7 +461,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 59,
@@ -485,7 +469,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 58,
@@ -493,7 +477,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 57,
@@ -501,7 +485,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 56,
@@ -509,7 +493,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 55,
@@ -517,7 +501,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 1
+     "atras": 13
     },
     {
      "numero": 54,
@@ -525,7 +509,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 3
+     "atras": 15
     },
     {
      "numero": 53,
@@ -533,7 +517,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 3
+     "atras": 15
     },
     {
      "numero": 52,
@@ -541,7 +525,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 3
+     "atras": 15
     },
     {
      "numero": 50,
@@ -549,7 +533,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 3
+     "atras": 15
     },
     {
      "numero": 49,
@@ -557,7 +541,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 3
+     "atras": 15
     },
     {
      "numero": 48,
@@ -565,7 +549,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 1,
-     "atras": 3
+     "atras": 15
     },
     {
      "numero": 43,
@@ -573,7 +557,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 5,
-     "atras": 3
+     "atras": 15
     }
    ]
   },
