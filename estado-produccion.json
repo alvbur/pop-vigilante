@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-01T18:47:16Z",
+ "actualizado": "2026-11-01T19:02:16Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-11-01T18:37:15Z",
@@ -35,18 +35,27 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-01T18:47:16Z",
+   "comprobado": "2026-11-01T19:02:16Z",
    "main": {
-    "sha": "406d3c2e7dd8bfe95796b72caa10ff87adacbf06",
-    "ci": "en_curso",
-    "fecha": "2026-11-01T18:42:47Z"
+    "sha": "1c8532a286d90cfb59ab13259e6f949128edf534",
+    "ci": "ok",
+    "fecha": "2026-11-01T18:50:46Z"
    },
    "despliegues": [
     {
+     "sha": "1c8532a286d90cfb59ab13259e6f949128edf534",
+     "resultado": "ok",
+     "inicio": "2026-11-01T18:50:49Z",
+     "fecha": "2026-11-01T18:55:35Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/41338693110",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
+    {
      "sha": "406d3c2e7dd8bfe95796b72caa10ff87adacbf06",
-     "resultado": "en_curso",
+     "resultado": "ok",
      "inicio": "2026-11-01T18:42:51Z",
-     "fecha": "2026-11-01T18:42:51Z",
+     "fecha": "2026-11-01T18:47:46Z",
      "run": "https://github.com/alvbur/pop_backend/actions/runs/41338014430",
      "evento": "push",
      "workflow": "Build & Push Backend"
@@ -122,34 +131,17 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/40866323050",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "86b9f774a260e77afd4106facc2d38904d8d85c0",
-     "resultado": "ok",
-     "inicio": "2026-10-29T10:09:12Z",
-     "fecha": "2026-10-29T10:12:40Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/40855263028",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 48,
    "prs": [
-    {
-     "numero": 116,
-     "sha": "20253362db0555ead4152a42fb99c9065016c7e0",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 2,
-     "atras": 9
-    },
     {
      "numero": 108,
      "sha": "29c6500b290c92abd0135a9d0a4d8c97aca6824f",
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 107,
@@ -157,7 +149,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 105,
@@ -165,7 +157,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 31
+     "atras": 34
     },
     {
      "numero": 104,
@@ -173,7 +165,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 103,
@@ -181,7 +173,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 102,
@@ -189,7 +181,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 101,
@@ -197,7 +189,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 100,
@@ -205,7 +197,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 99,
@@ -213,7 +205,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 98,
@@ -221,7 +213,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 97,
@@ -229,7 +221,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 15,
-     "atras": 31
+     "atras": 34
     },
     {
      "numero": 96,
@@ -237,7 +229,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 95,
@@ -245,7 +237,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 26
+     "atras": 29
     },
     {
      "numero": 94,
@@ -253,7 +245,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 8,
-     "atras": 31
+     "atras": 34
     },
     {
      "numero": 93,
@@ -261,7 +253,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 31
+     "atras": 34
     },
     {
      "numero": 92,
@@ -269,19 +261,28 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 31
+     "atras": 34
     }
    ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-01T18:47:16Z",
+   "comprobado": "2026-11-01T19:02:16Z",
    "main": {
-    "sha": "283a17f06f03b454e846f70d2eff85ebfe5ca622",
-    "ci": "ok",
-    "fecha": "2026-11-01T17:50:26Z"
+    "sha": "ef93429701f359a992021bab3eceed9370e6db0f",
+    "ci": "en_curso",
+    "fecha": "2026-11-01T19:00:55Z"
    },
    "despliegues": [
+    {
+     "sha": "ef93429701f359a992021bab3eceed9370e6db0f",
+     "resultado": "en_curso",
+     "inicio": "2026-11-01T19:00:58Z",
+     "fecha": "2026-11-01T19:00:58Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/41339538949",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
     {
      "sha": "283a17f06f03b454e846f70d2eff85ebfe5ca622",
      "resultado": "ok",
@@ -362,34 +363,17 @@
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/40868518943",
      "evento": "push",
      "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "66a91f369ddf5a2592d2cdbad8dfa40dfdbd21b9",
-     "resultado": "ok",
-     "inicio": "2026-10-26T15:14:15Z",
-     "fecha": "2026-10-26T15:15:35Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/40347325163",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
     }
    ],
    "ramas": 49,
    "prs": [
     {
-     "numero": 73,
-     "sha": "4bd5bcbb87499343d90cfc139af5f19389120495",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 9,
-     "atras": 0
-    },
-    {
      "numero": 72,
      "sha": "f6216383a920bc83db6b1d696af739009e663070",
      "borrador": false,
      "ci": "ok",
-     "adelante": 11,
-     "atras": 0
+     "adelante": 2,
+     "atras": 1
     },
     {
      "numero": 69,
@@ -397,7 +381,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 4,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 68,
@@ -405,7 +389,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 65,
@@ -413,7 +397,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 64,
@@ -421,7 +405,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 63,
@@ -429,7 +413,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 62,
@@ -437,7 +421,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 61,
@@ -445,7 +429,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 60,
@@ -453,7 +437,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 59,
@@ -461,7 +445,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 58,
@@ -469,7 +453,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 57,
@@ -477,7 +461,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 56,
@@ -485,7 +469,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 4,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 55,
@@ -493,7 +477,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 25
+     "atras": 35
     },
     {
      "numero": 54,
@@ -501,7 +485,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 27
+     "atras": 37
     },
     {
      "numero": 53,
@@ -509,7 +493,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 1,
-     "atras": 27
+     "atras": 37
     },
     {
      "numero": 52,
@@ -517,7 +501,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 27
+     "atras": 37
     },
     {
      "numero": 50,
@@ -525,7 +509,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 3,
-     "atras": 27
+     "atras": 37
     },
     {
      "numero": 49,
@@ -533,7 +517,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 2,
-     "atras": 27
+     "atras": 37
     },
     {
      "numero": 48,
@@ -541,7 +525,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 1,
-     "atras": 27
+     "atras": 37
     },
     {
      "numero": 43,
@@ -549,7 +533,7 @@
      "borrador": false,
      "ci": "fallo",
      "adelante": 5,
-     "atras": 27
+     "atras": 37
     }
    ]
   },
