@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-01T16:17:16Z",
+ "actualizado": "2026-11-01T16:32:16Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-01T15:57:15Z",
-  "latido": "2026-11-01T15:57:15Z"
+  "actualizado": "2026-11-01T16:32:14Z",
+  "latido": "2026-11-01T16:32:14Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 596,
-   "comprobado": "2026-11-01T15:57:15Z"
+   "latenciaMs": 545,
+   "comprobado": "2026-11-01T16:32:14Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 524,
-   "comprobado": "2026-11-01T15:57:15Z"
+   "latenciaMs": 541,
+   "comprobado": "2026-11-01T16:32:14Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 491,
-   "comprobado": "2026-11-01T15:57:15Z"
+   "latenciaMs": 484,
+   "comprobado": "2026-11-01T16:32:14Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-01T16:17:16Z",
+   "comprobado": "2026-11-01T16:32:16Z",
    "main": {
     "sha": "fdd31a48f931ab40d48392ce0cb1af362907e652",
     "ci": "sin",
@@ -155,7 +155,7 @@
      "numero": 106,
      "sha": "0b2f8a1a9bde78806e34f8d9b509ee06fcf5f875",
      "borrador": false,
-     "ci": "fallo",
+     "ci": "ok",
      "adelante": 15,
      "atras": 0
     },
@@ -283,7 +283,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-01T16:17:16Z",
+   "comprobado": "2026-11-01T16:32:16Z",
    "main": {
     "sha": "31d315e2ada1cc74df57d16e62b0f8291e07cdd2",
     "ci": "sin",
@@ -395,7 +395,7 @@
      "numero": 67,
      "sha": "23e8c90214f2d0f0d08eed4cb0f84644250ea0ce",
      "borrador": false,
-     "ci": "fallo",
+     "ci": "ok",
      "adelante": 12,
      "atras": 0
     },
@@ -403,7 +403,7 @@
      "numero": 66,
      "sha": "9b323a33a15575e1544f308f1168a1eb493e4509",
      "borrador": false,
-     "ci": "fallo",
+     "ci": "ok",
      "adelante": 10,
      "atras": 0
     },
