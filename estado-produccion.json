@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-02T12:02:45Z",
+ "actualizado": "2026-11-02T12:17:44Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-02T11:37:43Z",
-  "latido": "2026-11-02T11:37:43Z"
+  "actualizado": "2026-11-02T12:07:43Z",
+  "latido": "2026-11-02T12:07:43Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 457,
-   "comprobado": "2026-11-02T11:37:43Z"
+   "latenciaMs": 464,
+   "comprobado": "2026-11-02T12:07:43Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 433,
-   "comprobado": "2026-11-02T11:37:43Z"
+   "latenciaMs": 443,
+   "comprobado": "2026-11-02T12:07:43Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 426,
-   "comprobado": "2026-11-02T11:37:43Z"
+   "latenciaMs": 453,
+   "comprobado": "2026-11-02T12:07:43Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-02T12:02:45Z",
+   "comprobado": "2026-11-02T12:17:44Z",
    "main": {
     "sha": "4e9c8b35077d5c7577fa5980fec9c6694b9ddb00",
     "ci": "ok",
@@ -133,12 +133,29 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 50,
-   "prs": []
+   "ramas": 52,
+   "prs": [
+    {
+     "numero": 127,
+     "sha": "6d862107f91fa190d66da72dd02e89a989995676",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 1,
+     "atras": 0
+    },
+    {
+     "numero": 126,
+     "sha": "b907b237700ce9c515ea16c99ada088523efdb88",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 4,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-02T12:02:45Z",
+   "comprobado": "2026-11-02T12:17:44Z",
    "main": {
     "sha": "081938afd90344c55472712d9b2533c3a9c682a0",
     "ci": "ok",
@@ -236,14 +253,30 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 52,
+   "ramas": 53,
    "prs": [
     {
-     "numero": 43,
-     "sha": "b1ea1bb3675f10dfdc0278d64980ccb3321ccfd1",
+     "numero": 77,
+     "sha": "9e7d3614af1586937732fcbb2a2239fe43066e62",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 1,
+     "atras": 0
+    },
+    {
+     "numero": 76,
+     "sha": "7d3d4ce5570f82ee04c53b82f3414cfbc5415437",
      "borrador": false,
      "ci": "ok",
-     "adelante": 8,
+     "adelante": 2,
+     "atras": 0
+    },
+    {
+     "numero": 43,
+     "sha": "56a8ee5d9644f65575d19f475dd5cf6cb084fc3a",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 9,
      "atras": 0
     }
    ]
