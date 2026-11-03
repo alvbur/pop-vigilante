@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-03T13:18:59Z",
+ "actualizado": "2026-11-03T13:34:00Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-03T12:58:58Z",
-  "latido": "2026-11-03T12:58:58Z"
+  "actualizado": "2026-11-03T13:28:59Z",
+  "latido": "2026-11-03T13:28:59Z"
  },
  "produccion": [
   {
@@ -12,24 +12,24 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 491,
-   "comprobado": "2026-11-03T12:58:58Z"
+   "latenciaMs": 376,
+   "comprobado": "2026-11-03T13:28:59Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 291,
-   "comprobado": "2026-11-03T12:58:58Z"
+   "latenciaMs": 292,
+   "comprobado": "2026-11-03T13:28:59Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 305,
-   "comprobado": "2026-11-03T12:58:58Z"
+   "latenciaMs": 289,
+   "comprobado": "2026-11-03T13:28:59Z"
   }
  ],
  "repos": [
@@ -143,11 +143,12 @@
      "adelante": 2,
      "atras": 0
     }
-   ]
+   ],
+   "error": "llave caducada o mal copiada (401)"
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-03T13:18:59Z",
+   "comprobado": "2026-11-03T13:34:00Z",
    "main": {
     "sha": "8a66bb4dc7017b03d51c8af29105b068d160a73c",
     "ci": "ok",
