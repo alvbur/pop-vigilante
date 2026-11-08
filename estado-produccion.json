@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-08T14:36:18Z",
+ "actualizado": "2026-11-08T14:51:18Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-08T14:11:16Z",
-  "latido": "2026-11-08T14:11:16Z"
+  "actualizado": "2026-11-08T14:41:16Z",
+  "latido": "2026-11-08T14:41:16Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 582,
-   "comprobado": "2026-11-08T14:11:16Z"
+   "latenciaMs": 570,
+   "comprobado": "2026-11-08T14:41:16Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 514,
-   "comprobado": "2026-11-08T14:11:16Z"
+   "latenciaMs": 566,
+   "comprobado": "2026-11-08T14:41:16Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 478,
-   "comprobado": "2026-11-08T14:11:16Z"
+   "latenciaMs": 525,
+   "comprobado": "2026-11-08T14:41:16Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-08T14:36:18Z",
+   "comprobado": "2026-11-08T14:51:18Z",
    "main": {
     "sha": "4b861ac12f9397be0847e2ed7e194e60e742dece",
     "ci": "sin",
@@ -138,7 +138,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-08T14:36:18Z",
+   "comprobado": "2026-11-08T14:51:18Z",
    "main": {
     "sha": "bcbdd09089f9344e9673a721a40c15d4b633efe9",
     "ci": "ok",
