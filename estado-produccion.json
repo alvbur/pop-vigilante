@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T16:37:14Z",
+ "actualizado": "2026-11-09T16:52:13Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-11-09T16:32:12Z",
@@ -35,7 +35,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T16:37:14Z",
+   "comprobado": "2026-11-09T16:52:13Z",
    "main": {
     "sha": "611ba1546ebe44bd151a4feb8047365fbb67be4f",
     "ci": "ok",
@@ -163,13 +163,22 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T16:37:14Z",
+   "comprobado": "2026-11-09T16:52:13Z",
    "main": {
-    "sha": "adfd0bc07e9e05e639db2e69231f517161f96079",
+    "sha": "84f594cc8da550a5eb83695705a30614a6811f8d",
     "ci": "ok",
-    "fecha": "2026-11-09T15:40:47Z"
+    "fecha": "2026-11-09T16:41:06Z"
    },
    "despliegues": [
+    {
+     "sha": "84f594cc8da550a5eb83695705a30614a6811f8d",
+     "resultado": "ok",
+     "inicio": "2026-11-09T16:41:10Z",
+     "fecha": "2026-11-09T16:42:58Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/42657263541",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
     {
      "sha": "adfd0bc07e9e05e639db2e69231f517161f96079",
      "resultado": "ok",
@@ -250,34 +259,17 @@
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/42619025393",
      "evento": "push",
      "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "ec3baa9d78700551a8de912f8fed387df265f034",
-     "resultado": "ok",
-     "inicio": "2026-11-09T11:17:48Z",
-     "fecha": "2026-11-09T11:19:59Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/42607885247",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
     }
    ],
    "ramas": 74,
    "prs": [
-    {
-     "numero": 98,
-     "sha": "a292dc3b25f8d1c7407c48496eb015137769641c",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 1,
-     "atras": 0
-    },
     {
      "numero": 86,
      "sha": "409a9b8404b307d7824c5a4d525d020574feaf84",
      "borrador": false,
      "ci": "ok",
      "adelante": 2,
-     "atras": 38
+     "atras": 40
     },
     {
      "numero": 85,
@@ -285,7 +277,7 @@
      "borrador": true,
      "ci": "ok",
      "adelante": 3,
-     "atras": 38
+     "atras": 40
     },
     {
      "numero": 83,
@@ -293,7 +285,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 1,
-     "atras": 38
+     "atras": 40
     }
    ]
   },
