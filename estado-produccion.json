@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T10:06:48Z",
+ "actualizado": "2026-11-09T10:21:49Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-09T09:46:46Z",
-  "latido": "2026-11-09T09:46:46Z"
+  "actualizado": "2026-11-09T10:16:46Z",
+  "latido": "2026-11-09T10:16:46Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 791,
-   "comprobado": "2026-11-09T09:46:46Z"
+   "latenciaMs": 631,
+   "comprobado": "2026-11-09T10:16:46Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 660,
-   "comprobado": "2026-11-09T09:46:46Z"
+   "latenciaMs": 684,
+   "comprobado": "2026-11-09T10:16:46Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 545,
-   "comprobado": "2026-11-09T09:46:46Z"
+   "latenciaMs": 583,
+   "comprobado": "2026-11-09T10:16:46Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T10:06:48Z",
+   "comprobado": "2026-11-09T10:21:49Z",
    "main": {
     "sha": "b6e2869cf8e52183a3dec1e8a8de66abaa816c77",
     "ci": "ok",
@@ -179,7 +179,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T10:06:48Z",
+   "comprobado": "2026-11-09T10:21:49Z",
    "main": {
     "sha": "4fe8959b1fd7376e811334c03ac076bed731e456",
     "ci": "ok",
@@ -277,8 +277,24 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 65,
+   "ramas": 67,
    "prs": [
+    {
+     "numero": 91,
+     "sha": "0e435a2033beea9a15f3e850b1db394399b62890",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 2,
+     "atras": 0
+    },
+    {
+     "numero": 90,
+     "sha": "b6fa6bccf08220331adb78e6c982160fbcb46f6a",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    },
     {
      "numero": 89,
      "sha": "5976fdee2f4b6ba9cf143c0aac35537b2383ccde",
