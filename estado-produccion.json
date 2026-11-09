@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T08:36:48Z",
+ "actualizado": "2026-11-09T08:51:49Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-09T08:16:46Z",
-  "latido": "2026-11-09T08:16:46Z"
+  "actualizado": "2026-11-09T08:46:46Z",
+  "latido": "2026-11-09T08:46:46Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 594,
-   "comprobado": "2026-11-09T08:16:46Z"
+   "latenciaMs": 764,
+   "comprobado": "2026-11-09T08:46:46Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 543,
-   "comprobado": "2026-11-09T08:16:46Z"
+   "latenciaMs": 536,
+   "comprobado": "2026-11-09T08:46:46Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 563,
-   "comprobado": "2026-11-09T08:16:46Z"
+   "latenciaMs": 537,
+   "comprobado": "2026-11-09T08:46:46Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T08:36:48Z",
+   "comprobado": "2026-11-09T08:51:49Z",
    "main": {
     "sha": "b6e2869cf8e52183a3dec1e8a8de66abaa816c77",
     "ci": "ok",
@@ -133,13 +133,29 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 60,
+   "ramas": 62,
    "prs": [
+    {
+     "numero": 140,
+     "sha": "7f0c39f188f61224840dd919969c7e65924b1b6a",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 2,
+     "atras": 0
+    },
+    {
+     "numero": 139,
+     "sha": "a85c9fdc0e900e424c29b1f76bd9c58cf1335259",
+     "borrador": false,
+     "ci": "fallo",
+     "adelante": 1,
+     "atras": 0
+    },
     {
      "numero": 138,
      "sha": "ef080b9154fb3bb3586e07532090d0ae13222dbf",
      "borrador": true,
-     "ci": "en_curso",
+     "ci": "ok",
      "adelante": 1,
      "atras": 0
     },
@@ -147,7 +163,7 @@
      "numero": 137,
      "sha": "f2a9eff914b5a28c0c5537c796dd10a568bac7db",
      "borrador": false,
-     "ci": "en_curso",
+     "ci": "ok",
      "adelante": 1,
      "atras": 0
     }
@@ -155,7 +171,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T08:36:48Z",
+   "comprobado": "2026-11-09T08:51:49Z",
    "main": {
     "sha": "4fe8959b1fd7376e811334c03ac076bed731e456",
     "ci": "ok",
@@ -259,7 +275,7 @@
      "numero": 86,
      "sha": "409a9b8404b307d7824c5a4d525d020574feaf84",
      "borrador": false,
-     "ci": "en_curso",
+     "ci": "ok",
      "adelante": 2,
      "atras": 0
     },
@@ -267,7 +283,7 @@
      "numero": 85,
      "sha": "6b0dd5a50bba150d6538b9784ce6dca7e198aeed",
      "borrador": true,
-     "ci": "en_curso",
+     "ci": "ok",
      "adelante": 3,
      "atras": 0
     },
@@ -275,7 +291,7 @@
      "numero": 84,
      "sha": "2b9fb40980f8bf18663056c07d2076eeabd3f2de",
      "borrador": false,
-     "ci": "en_curso",
+     "ci": "ok",
      "adelante": 1,
      "atras": 0
     },
