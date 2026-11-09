@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T18:52:13Z",
+ "actualizado": "2026-11-09T19:07:14Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-11-09T18:42:11Z",
@@ -35,13 +35,22 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T18:52:13Z",
+   "comprobado": "2026-11-09T19:07:14Z",
    "main": {
-    "sha": "0cb7621bd2af33a50b7d104999112ee25bbf5c5a",
+    "sha": "84f7ffa665a5040d78143634115d168fd439c98c",
     "ci": "ok",
-    "fecha": "2026-11-09T17:54:08Z"
+    "fecha": "2026-11-09T18:58:57Z"
    },
    "despliegues": [
+    {
+     "sha": "84f7ffa665a5040d78143634115d168fd439c98c",
+     "resultado": "ok",
+     "inicio": "2026-11-09T18:59:00Z",
+     "fecha": "2026-11-09T19:03:21Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/42678942922",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
     {
      "sha": "0cb7621bd2af33a50b7d104999112ee25bbf5c5a",
      "resultado": "ok",
@@ -122,40 +131,23 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/42622401514",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "6182dae5bb50dc041da848d27a5115f678044e2c",
-     "resultado": "ok",
-     "inicio": "2026-11-09T12:50:41Z",
-     "fecha": "2026-11-09T12:54:01Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/42620376721",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 76,
    "prs": [
     {
-     "numero": 138,
-     "sha": "17670a6a188a422bc0685a90c3f04edbc19da45d",
-     "borrador": true,
-     "ci": "ok",
-     "adelante": 2,
-     "atras": 0
-    },
-    {
      "numero": 137,
-     "sha": "f2a9eff914b5a28c0c5537c796dd10a568bac7db",
+     "sha": "35962a32dcbb48727c48fc4970ec1476a312b937",
      "borrador": false,
      "ci": "ok",
-     "adelante": 1,
-     "atras": 52
+     "adelante": 2,
+     "atras": 3
     }
    ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T18:52:13Z",
+   "comprobado": "2026-11-09T19:07:14Z",
    "main": {
     "sha": "020668f71db5c35555b6a32ea10e67584029a783",
     "ci": "ok",
@@ -265,11 +257,11 @@
     },
     {
      "numero": 83,
-     "sha": "32b9a302a489dbdd53ddf272fd66c7adbef0baec",
+     "sha": "ab677d0f40acb08a95ab324265b27ff3701d3810",
      "borrador": false,
      "ci": "ok",
-     "adelante": 1,
-     "atras": 50
+     "adelante": 2,
+     "atras": 5
     }
    ]
   },
