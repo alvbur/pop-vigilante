@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T13:07:00Z",
+ "actualizado": "2026-11-09T13:22:01Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-09T12:51:59Z",
-  "latido": "2026-11-09T12:51:59Z"
+  "actualizado": "2026-11-09T13:22:00Z",
+  "latido": "2026-11-09T13:22:00Z"
  },
  "produccion": [
   {
@@ -12,41 +12,41 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 413,
-   "comprobado": "2026-11-09T12:51:59Z"
+   "latenciaMs": 432,
+   "comprobado": "2026-11-09T13:22:00Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 315,
-   "comprobado": "2026-11-09T12:51:59Z"
+   "latenciaMs": 533,
+   "comprobado": "2026-11-09T13:22:00Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 321,
-   "comprobado": "2026-11-09T12:51:59Z"
+   "latenciaMs": 318,
+   "comprobado": "2026-11-09T13:22:00Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T13:07:00Z",
+   "comprobado": "2026-11-09T13:22:01Z",
    "main": {
     "sha": "dd9a27b2e0c70be14b6123d022510906069f46c5",
-    "ci": "en_curso",
+    "ci": "ok",
     "fecha": "2026-11-09T13:05:22Z"
    },
    "despliegues": [
     {
      "sha": "dd9a27b2e0c70be14b6123d022510906069f46c5",
-     "resultado": "en_curso",
+     "resultado": "ok",
      "inicio": "2026-11-09T13:05:25Z",
-     "fecha": "2026-11-09T13:05:25Z",
+     "fecha": "2026-11-09T13:10:18Z",
      "run": "https://github.com/alvbur/pop_backend/actions/runs/42622401514",
      "evento": "push",
      "workflow": "Build & Push Backend"
@@ -137,10 +137,10 @@
    "prs": [
     {
      "numero": 139,
-     "sha": "09cbf3b4a456bc03cf5505163bb448ea525b49f4",
+     "sha": "5ff7f264eef787e7398d296d06257dcdcca72906",
      "borrador": false,
      "ci": "en_curso",
-     "adelante": 3,
+     "adelante": 4,
      "atras": 12
     },
     {
@@ -163,13 +163,22 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T13:07:00Z",
+   "comprobado": "2026-11-09T13:22:01Z",
    "main": {
-    "sha": "2417add5d374b8766a567bec3cd869e9e4139677",
+    "sha": "c6d6d7acd40a077b526458b46cd0d41133aeeb8f",
     "ci": "ok",
-    "fecha": "2026-11-09T13:00:41Z"
+    "fecha": "2026-11-09T13:15:42Z"
    },
    "despliegues": [
+    {
+     "sha": "c6d6d7acd40a077b526458b46cd0d41133aeeb8f",
+     "resultado": "ok",
+     "inicio": "2026-11-09T13:15:46Z",
+     "fecha": "2026-11-09T13:17:35Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/42623918125",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
     {
      "sha": "2417add5d374b8766a567bec3cd869e9e4139677",
      "resultado": "ok",
@@ -250,34 +259,17 @@
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/42515003056",
      "evento": "push",
      "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "bcbdd09089f9344e9673a721a40c15d4b633efe9",
-     "resultado": "ok",
-     "inicio": "2026-11-07T12:45:48Z",
-     "fecha": "2026-11-07T12:48:01Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/42373910251",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
     }
    ],
    "ramas": 71,
    "prs": [
     {
-     "numero": 95,
-     "sha": "76e496a9c423a89534ab8dfe8b66a6165e654e9a",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 1,
-     "atras": 20
-    },
-    {
      "numero": 87,
      "sha": "a250df128f969e28806d980b6cbf98573e2ec4ef",
      "borrador": false,
-     "ci": "en_curso",
+     "ci": "ok",
      "adelante": 2,
-     "atras": 20
+     "atras": 22
     },
     {
      "numero": 86,
@@ -285,7 +277,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 2,
-     "atras": 28
+     "atras": 30
     },
     {
      "numero": 85,
@@ -293,7 +285,7 @@
      "borrador": true,
      "ci": "ok",
      "adelante": 3,
-     "atras": 28
+     "atras": 30
     },
     {
      "numero": 83,
@@ -301,7 +293,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 1,
-     "atras": 28
+     "atras": 30
     }
    ]
   },
