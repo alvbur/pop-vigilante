@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T10:37:00Z",
+ "actualizado": "2026-11-09T10:52:01Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-09T10:16:46Z",
-  "latido": "2026-11-09T10:16:46Z"
+  "actualizado": "2026-11-09T10:47:00Z",
+  "latido": "2026-11-09T10:47:00Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 631,
-   "comprobado": "2026-11-09T10:16:46Z"
+   "latenciaMs": 410,
+   "comprobado": "2026-11-09T10:47:00Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 684,
-   "comprobado": "2026-11-09T10:16:46Z"
+   "latenciaMs": 331,
+   "comprobado": "2026-11-09T10:47:00Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 583,
-   "comprobado": "2026-11-09T10:16:46Z"
+   "latenciaMs": 376,
+   "comprobado": "2026-11-09T10:47:00Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T10:37:00Z",
+   "comprobado": "2026-11-09T10:52:01Z",
    "main": {
     "sha": "b6e2869cf8e52183a3dec1e8a8de66abaa816c77",
     "ci": "ok",
@@ -133,8 +133,32 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 63,
+   "ramas": 66,
    "prs": [
+    {
+     "numero": 144,
+     "sha": "44f619237be69c05317ef84ac964d256f7d8aff0",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 3,
+     "atras": 0
+    },
+    {
+     "numero": 143,
+     "sha": "a77fd4f426aaa1d82d60e91b59758342061f3709",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    },
+    {
+     "numero": 142,
+     "sha": "06a6710876b24c66c1f0055efa526b4692545591",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    },
     {
      "numero": 141,
      "sha": "c67a55fa7cc53e3b60dbec29a391540674b2af34",
@@ -179,7 +203,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T10:37:00Z",
+   "comprobado": "2026-11-09T10:52:01Z",
    "main": {
     "sha": "4fe8959b1fd7376e811334c03ac076bed731e456",
     "ci": "ok",
