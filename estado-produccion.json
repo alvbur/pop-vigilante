@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T22:07:25Z",
+ "actualizado": "2026-11-09T22:22:26Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-09T21:47:12Z",
-  "latido": "2026-11-09T21:47:12Z"
+  "actualizado": "2026-11-09T22:17:23Z",
+  "latido": "2026-11-09T22:17:23Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 546,
-   "comprobado": "2026-11-09T21:47:12Z"
+   "latenciaMs": 575,
+   "comprobado": "2026-11-09T22:17:23Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 533,
-   "comprobado": "2026-11-09T21:47:12Z"
+   "latenciaMs": 489,
+   "comprobado": "2026-11-09T22:17:23Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 642,
-   "comprobado": "2026-11-09T21:47:12Z"
+   "latenciaMs": 557,
+   "comprobado": "2026-11-09T22:17:23Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T22:07:25Z",
+   "comprobado": "2026-11-09T22:22:26Z",
    "main": {
     "sha": "ba5d3a5e2772c1e58caf50ade420f9642bb11012",
     "ci": "ok",
@@ -133,12 +133,21 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 77,
-   "prs": []
+   "ramas": 78,
+   "prs": [
+    {
+     "numero": 171,
+     "sha": "03577d7d05816a8d6be0911b5599d4b64550e669",
+     "borrador": true,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T22:07:25Z",
+   "comprobado": "2026-11-09T22:22:26Z",
    "main": {
     "sha": "7c328e6d7f7372d7c9770a90bd33e0dfdfdfc1d4",
     "ci": "ok",
@@ -236,8 +245,17 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 77,
-   "prs": []
+   "ramas": 78,
+   "prs": [
+    {
+     "numero": 102,
+     "sha": "0d8729cd95f4dc177f9419ad38785740946e52e2",
+     "borrador": true,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "bianfa-2026/pulpop-web",
