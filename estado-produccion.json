@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T20:07:14Z",
+ "actualizado": "2026-11-09T20:22:13Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-09T19:42:12Z",
-  "latido": "2026-11-09T19:42:12Z"
+  "actualizado": "2026-11-09T20:17:11Z",
+  "latido": "2026-11-09T20:17:11Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 677,
-   "comprobado": "2026-11-09T19:42:12Z"
+   "latenciaMs": 583,
+   "comprobado": "2026-11-09T20:17:11Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 509,
-   "comprobado": "2026-11-09T19:42:12Z"
+   "latenciaMs": 455,
+   "comprobado": "2026-11-09T20:17:11Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 457,
-   "comprobado": "2026-11-09T19:42:12Z"
+   "latenciaMs": 463,
+   "comprobado": "2026-11-09T20:17:11Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T20:07:14Z",
+   "comprobado": "2026-11-09T20:22:13Z",
    "main": {
     "sha": "84f7ffa665a5040d78143634115d168fd439c98c",
     "ci": "ok",
@@ -145,17 +145,17 @@
     },
     {
      "numero": 137,
-     "sha": "35962a32dcbb48727c48fc4970ec1476a312b937",
+     "sha": "e1a89d2f8acbf0c0cdf51de054b3297364960b1d",
      "borrador": false,
      "ci": "ok",
-     "adelante": 2,
-     "atras": 3
+     "adelante": 3,
+     "atras": 0
     }
    ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T20:07:14Z",
+   "comprobado": "2026-11-09T20:22:13Z",
    "main": {
     "sha": "020668f71db5c35555b6a32ea10e67584029a783",
     "ci": "ok",
@@ -265,19 +265,19 @@
     },
     {
      "numero": 86,
-     "sha": "409a9b8404b307d7824c5a4d525d020574feaf84",
+     "sha": "5fb27f481970b833f2b0884fbaef5ac697a47fee",
      "borrador": false,
      "ci": "ok",
-     "adelante": 2,
-     "atras": 50
+     "adelante": 4,
+     "atras": 0
     },
     {
      "numero": 83,
-     "sha": "ab677d0f40acb08a95ab324265b27ff3701d3810",
+     "sha": "4cf0a300a34e1888a0fd07f730cf810d2c40cbea",
      "borrador": false,
      "ci": "ok",
-     "adelante": 2,
-     "atras": 5
+     "adelante": 3,
+     "atras": 0
     }
    ]
   },
