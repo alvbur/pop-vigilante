@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T11:37:00Z",
+ "actualizado": "2026-11-09T11:52:01Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-09T11:21:59Z",
-  "latido": "2026-11-09T11:21:59Z"
+  "actualizado": "2026-11-09T11:51:59Z",
+  "latido": "2026-11-09T11:51:59Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 396,
-   "comprobado": "2026-11-09T11:21:59Z"
+   "latenciaMs": 456,
+   "comprobado": "2026-11-09T11:51:59Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 341,
-   "comprobado": "2026-11-09T11:21:59Z"
+   "latenciaMs": 378,
+   "comprobado": "2026-11-09T11:51:59Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 315,
-   "comprobado": "2026-11-09T11:21:59Z"
+   "latenciaMs": 354,
+   "comprobado": "2026-11-09T11:51:59Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T11:37:00Z",
+   "comprobado": "2026-11-09T11:52:01Z",
    "main": {
     "sha": "7a2470867124947baa6905cf2c6b5b7756c4c556",
     "ci": "ok",
@@ -133,8 +133,16 @@
      "workflow": "Build & Push Backend"
     }
    ],
-   "ramas": 67,
+   "ramas": 68,
    "prs": [
+    {
+     "numero": 147,
+     "sha": "26d26864478b0409749cdc11b3eb8b36a88062ba",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 3,
+     "atras": 7
+    },
     {
      "numero": 146,
      "sha": "915fb693c2ccfef6754db1b6201ecb253b3971ed",
@@ -195,7 +203,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T11:37:00Z",
+   "comprobado": "2026-11-09T11:52:01Z",
    "main": {
     "sha": "ec3baa9d78700551a8de912f8fed387df265f034",
     "ci": "ok",
@@ -293,8 +301,24 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 68,
+   "ramas": 70,
    "prs": [
+    {
+     "numero": 94,
+     "sha": "48b28b9851103013ed37933792e4407848dbb793",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 2,
+     "atras": 8
+    },
+    {
+     "numero": 93,
+     "sha": "06ee7203de6ef88895094fc94762b63be8248e43",
+     "borrador": false,
+     "ci": "ok",
+     "adelante": 1,
+     "atras": 0
+    },
     {
      "numero": 92,
      "sha": "a819a910275e556d3638b093898a53e211210af7",
@@ -305,19 +329,19 @@
     },
     {
      "numero": 91,
-     "sha": "0e435a2033beea9a15f3e850b1db394399b62890",
+     "sha": "345712cb985bb112c3610f2ee8d81a9791fc7810",
      "borrador": false,
-     "ci": "ok",
-     "adelante": 2,
-     "atras": 8
+     "ci": "en_curso",
+     "adelante": 5,
+     "atras": 0
     },
     {
      "numero": 90,
-     "sha": "b6fa6bccf08220331adb78e6c982160fbcb46f6a",
+     "sha": "04a3d15185a2c4694453764518a2963b4b0a5e26",
      "borrador": false,
-     "ci": "ok",
-     "adelante": 1,
-     "atras": 8
+     "ci": "en_curso",
+     "adelante": 2,
+     "atras": 0
     },
     {
      "numero": 87,
