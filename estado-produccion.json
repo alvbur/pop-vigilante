@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T15:07:00Z",
+ "actualizado": "2026-11-09T15:22:01Z",
  "cadaS": 900,
  "vigilante": {
   "actualizado": "2026-11-09T14:56:59Z",
@@ -35,13 +35,22 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T15:07:00Z",
+   "comprobado": "2026-11-09T15:22:01Z",
    "main": {
-    "sha": "53a2f469048b3614e90ae20dc43ee2698e4ff432",
+    "sha": "9b5f603efde53fa640545ec16a12ae51ea81447e",
     "ci": "ok",
-    "fecha": "2026-11-09T14:54:16Z"
+    "fecha": "2026-11-09T15:15:01Z"
    },
    "despliegues": [
+    {
+     "sha": "9b5f603efde53fa640545ec16a12ae51ea81447e",
+     "resultado": "ok",
+     "inicio": "2026-11-09T15:15:04Z",
+     "fecha": "2026-11-09T15:20:20Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/42642750475",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
     {
      "sha": "53a2f469048b3614e90ae20dc43ee2698e4ff432",
      "resultado": "ok",
@@ -122,15 +131,6 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/42615231863",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "7a2470867124947baa6905cf2c6b5b7756c4c556",
-     "resultado": "ok",
-     "inicio": "2026-11-09T11:05:43Z",
-     "fecha": "2026-11-09T11:09:42Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/42606203549",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 73,
@@ -141,15 +141,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 1,
-     "atras": 2
-    },
-    {
-     "numero": 155,
-     "sha": "5367e9e20cabed857aa9e1f479d9f1cf398c547a",
-     "borrador": false,
-     "ci": "en_curso",
-     "adelante": 2,
-     "atras": 2
+     "atras": 5
     },
     {
      "numero": 138,
@@ -157,7 +149,7 @@
      "borrador": true,
      "ci": "ok",
      "adelante": 1,
-     "atras": 39
+     "atras": 42
     },
     {
      "numero": 137,
@@ -165,13 +157,13 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 1,
-     "atras": 39
+     "atras": 42
     }
    ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T15:07:00Z",
+   "comprobado": "2026-11-09T15:22:01Z",
    "main": {
     "sha": "0cb95e78aa14d959e74c4bfb942ab5c8892ed2f5",
     "ci": "ok",
@@ -273,11 +265,11 @@
    "prs": [
     {
      "numero": 97,
-     "sha": "a95af319f1c348931a94e7ef112cef0696c72768",
+     "sha": "ba2c7f19b84881758d3e7f456fc48488d7ba1653",
      "borrador": false,
-     "ci": "ok",
-     "adelante": 1,
-     "atras": 2
+     "ci": "en_curso",
+     "adelante": 2,
+     "atras": 0
     },
     {
      "numero": 86,
