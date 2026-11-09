@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-09T20:37:13Z",
+ "actualizado": "2026-11-09T20:52:13Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-09T20:17:11Z",
-  "latido": "2026-11-09T20:17:11Z"
+  "actualizado": "2026-11-09T20:47:11Z",
+  "latido": "2026-11-09T20:47:11Z"
  },
  "produccion": [
   {
@@ -12,36 +12,45 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 583,
-   "comprobado": "2026-11-09T20:17:11Z"
+   "latenciaMs": 674,
+   "comprobado": "2026-11-09T20:47:11Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 455,
-   "comprobado": "2026-11-09T20:17:11Z"
+   "latenciaMs": 638,
+   "comprobado": "2026-11-09T20:47:11Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 463,
-   "comprobado": "2026-11-09T20:17:11Z"
+   "latenciaMs": 512,
+   "comprobado": "2026-11-09T20:47:11Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-09T20:37:13Z",
+   "comprobado": "2026-11-09T20:52:13Z",
    "main": {
-    "sha": "037daecef9cabad65d8016f0b3d1ecbf661d3bdc",
+    "sha": "ba5d3a5e2772c1e58caf50ade420f9642bb11012",
     "ci": "ok",
-    "fecha": "2026-11-09T20:23:37Z"
+    "fecha": "2026-11-09T20:43:31Z"
    },
    "despliegues": [
+    {
+     "sha": "ba5d3a5e2772c1e58caf50ade420f9642bb11012",
+     "resultado": "ok",
+     "inicio": "2026-11-09T20:43:33Z",
+     "fecha": "2026-11-09T20:47:02Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/42695684764",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
     {
      "sha": "037daecef9cabad65d8016f0b3d1ecbf661d3bdc",
      "resultado": "ok",
@@ -122,38 +131,29 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/42628051139",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "5b9e0560190e280afa4d769b2bf410d3586f58bb",
-     "resultado": "ok",
-     "inicio": "2026-11-09T13:23:37Z",
-     "fecha": "2026-11-09T13:28:35Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/42625072124",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 77,
-   "prs": [
-    {
-     "numero": 167,
-     "sha": "1777906ce8bd85f886d34044acf35394b15518e8",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 2,
-     "atras": 4
-    }
-   ]
+   "prs": []
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-09T20:37:13Z",
+   "comprobado": "2026-11-09T20:52:13Z",
    "main": {
-    "sha": "07bfb4f77f594367ff38856dae496238798325b2",
-    "ci": "ok",
-    "fecha": "2026-11-09T20:35:18Z"
+    "sha": "7c328e6d7f7372d7c9770a90bd33e0dfdfdfc1d4",
+    "ci": "en_curso",
+    "fecha": "2026-11-09T20:50:49Z"
    },
    "despliegues": [
+    {
+     "sha": "7c328e6d7f7372d7c9770a90bd33e0dfdfdfc1d4",
+     "resultado": "en_curso",
+     "inicio": "2026-11-09T20:50:53Z",
+     "fecha": "2026-11-09T20:50:53Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/42696839538",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
     {
      "sha": "07bfb4f77f594367ff38856dae496238798325b2",
      "resultado": "ok",
@@ -234,28 +234,10 @@
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/42626116508",
      "evento": "push",
      "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "c6d6d7acd40a077b526458b46cd0d41133aeeb8f",
-     "resultado": "ok",
-     "inicio": "2026-11-09T13:15:46Z",
-     "fecha": "2026-11-09T13:17:35Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/42623918125",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
     }
    ],
    "ramas": 77,
-   "prs": [
-    {
-     "numero": 101,
-     "sha": "415f9eaae0695f4c1801111e50b5bf7c20ab3f48",
-     "borrador": true,
-     "ci": "ok",
-     "adelante": 2,
-     "atras": 9
-    }
-   ]
+   "prs": []
   },
   {
    "repo": "bianfa-2026/pulpop-web",
