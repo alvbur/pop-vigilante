@@ -1,1 +1,4 @@
 __pycache__/
+node_modules/
+humo-capturas/
+package-lock.json

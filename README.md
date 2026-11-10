@@ -37,7 +37,7 @@ Sin el secreto, el aviso se salta sin fallar. Lo mismo con `NTFY_TEMA` para ntfy
 ## Pruebas
 
 ```sh
-python3 -m unittest -v test_vigilar test_produccion test_consumo
+python3 -m unittest -v test_vigilar test_produccion test_consumo test_despliegues
 ```
 
 Casos simulados sin red: caída (aviso al 2.º fallo), vuelta (con duración), sin cambios (sin commit), latido a los 30 min y envío a Slack con y sin secreto.
@@ -51,3 +51,12 @@ Al cruzar el 70 %, el 90 % o el 100 % de los 2.000 min avisa una vez por Slack/n
 `turno` dice qué cuenta tiene más minutos libres. Usa `REPOS_TOKEN` y `WEB_TOKEN` (con «Actions: read»): sin llave para
 un repo, su cuenta sale como `incompleta` y no se inventa nada. Desde el PC: `GH_TOKEN=$(gh auth token) python3 consumo.py
 --forzar --sin-avisos --salida /tmp/informe.json`.
+
+## Despliegues y prueba de humo (despliegues.py, 10/11/2026)
+
+En cada vuelta mira qué commit sirve la API (`/api/health`), la app (`/version.json`) y la web (`pulpop.io/version.json`).
+Si cambia la API o la app, a la vuelta siguiente pasa `humo.mjs` (copia del de `pop_backend/.github/subida`: 16 páginas
+públicas × 3 tamaños × claro/oscuro) y avisa por Slack/ntfy «desplegado + humo». Con `REPOS_TOKEN` avisa además si la
+última construcción de main falló o si acabó hace más de 20 min y producción sigue con un commit anterior. Así la subida
+de pop_backend ya no espera en un runner de pago (`ESPERA_DESPLIEGUE=vigilante`). Estado en `estado-despliegues.json`
+(solo SHA, fechas y recuentos). Si se cambia `humo.mjs` allí, copiarlo aquí.
