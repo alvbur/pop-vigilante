@@ -1,0 +1,74 @@
+{
+ "version": 1,
+ "actualizado": "2026-11-10T21:08:51Z",
+ "mes": "2026-11",
+ "cadaS": 3600,
+ "nota": "Estimación por jobs (redondeo al minuto, como la factura). Públicos y self-hosted no gastan. Cupo: 1 de cada mes UTC.",
+ "turno": "alvbur",
+ "cuentas": {
+  "alvbur": {
+   "nombre": "Álvaro",
+   "limite": 2000,
+   "usados": 1702,
+   "quedan": 298,
+   "porcentaje": 85.1,
+   "nivel": "70",
+   "ritmoDia": 172.2,
+   "ritmo3Dias": 351.3,
+   "previsionFinMes": 8770,
+   "diasHastaAgotar": 0.8,
+   "publicosGratis": 14081,
+   "incompleta": [],
+   "porRepo": {
+    "alvbur/pop_backend": 1404,
+    "alvbur/pop_frontend": 298,
+    "alvbur/pop-visitas": 0
+   },
+   "porWorkflow": {
+    "pop_backend · Subida": 711,
+    "pop_backend · Pruebas": 432,
+    "pop_backend · Build & Push Backend": 164,
+    "pop_frontend · Pruebas": 109,
+    "pop_frontend · Estado de la CI": 100,
+    "pop_backend · Estado de la CI": 95,
+    "pop_frontend · Build & Push Frontend": 89,
+    "pop_backend · Pruebas (copia de ficheros)": 2,
+    "pop_backend · Claude en GitHub": 0,
+    "pop_frontend · Claude en GitHub": 0
+   },
+   "porDia": {
+    "2026-11-01": 357,
+    "2026-11-02": 215,
+    "2026-11-07": 76,
+    "2026-11-08": 43,
+    "2026-11-09": 982,
+    "2026-11-10": 29
+   }
+  },
+  "bianfa-2026": {
+   "nombre": "Fabián",
+   "limite": 2000,
+   "usados": 0,
+   "quedan": 2000,
+   "porcentaje": 0.0,
+   "nivel": "ok",
+   "ritmoDia": 0.0,
+   "ritmo3Dias": 0.0,
+   "previsionFinMes": 0,
+   "diasHastaAgotar": null,
+   "publicosGratis": 0,
+   "incompleta": [
+    "bianfa-2026/pulpop-web"
+   ],
+   "porRepo": {
+    "bianfa-2026/pulpop-web": 0
+   },
+   "porWorkflow": {},
+   "porDia": {}
+  }
+ },
+ "errores": {
+  "alvbur/pop-visitas": "la llave no ve este repo (404)",
+  "bianfa-2026/pulpop-web": "la llave no ve este repo (404)"
+ }
+}

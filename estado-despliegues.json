@@ -1,0 +1,22 @@
+{
+ "partes": {
+  "api": {
+   "repo": "alvbur/pop_backend",
+   "commit": "05cbf5e3d4b96509aa86458bb60274661568b996",
+   "desde": "2026-11-10T21:08:48Z"
+  },
+  "app": {
+   "repo": "alvbur/pop_frontend",
+   "commit": "f095c815b8572c1acdf777268889477747aabebd",
+   "desde": "2026-11-10T21:08:48Z"
+  },
+  "web": {
+   "repo": "bianfa-2026/pulpop-web",
+   "commit": "504633f17ea7525f1121ab12e9743e23bf9647b5",
+   "desde": "2026-11-10T21:08:48Z"
+  }
+ },
+ "avisadas": {},
+ "version": 1,
+ "actualizado": "2026-11-10T21:08:48Z"
+}
