@@ -1,10 +1,10 @@
 {
  "version": 1,
- "actualizado": "2026-11-10T19:23:01Z",
+ "actualizado": "2026-11-10T19:38:01Z",
  "cadaS": 900,
  "vigilante": {
-  "actualizado": "2026-11-10T19:07:59Z",
-  "latido": "2026-11-10T19:07:59Z"
+  "actualizado": "2026-11-10T19:38:00Z",
+  "latido": "2026-11-10T19:38:00Z"
  },
  "produccion": [
   {
@@ -12,30 +12,30 @@
    "url": "https://api.pulpop.io/api/health",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 571,
-   "comprobado": "2026-11-10T19:07:59Z"
+   "latenciaMs": 635,
+   "comprobado": "2026-11-10T19:38:00Z"
   },
   {
    "servicio": "POP (app)",
    "url": "https://pop.pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 533,
-   "comprobado": "2026-11-10T19:07:59Z"
+   "latenciaMs": 537,
+   "comprobado": "2026-11-10T19:38:00Z"
   },
   {
    "servicio": "Web",
    "url": "https://pulpop.io/",
    "estado": "ok",
    "codigo": 200,
-   "latenciaMs": 532,
-   "comprobado": "2026-11-10T19:07:59Z"
+   "latenciaMs": 534,
+   "comprobado": "2026-11-10T19:38:00Z"
   }
  ],
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-10T19:23:01Z",
+   "comprobado": "2026-11-10T19:38:01Z",
    "main": {
     "sha": "ba5d3a5e2772c1e58caf50ade420f9642bb11012",
     "ci": "ok",
@@ -137,10 +137,10 @@
    "prs": [
     {
      "numero": 173,
-     "sha": "8b97b657fc979ce88fcf4a113d89a14f0c5c66c9",
+     "sha": "d68133db03badc49104aff01d1b5fb126d5f3036",
      "borrador": true,
      "ci": "sin",
-     "adelante": 1,
+     "adelante": 2,
      "atras": 0
     },
     {
@@ -163,7 +163,7 @@
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-10T19:23:01Z",
+   "comprobado": "2026-11-10T19:38:01Z",
    "main": {
     "sha": "7c328e6d7f7372d7c9770a90bd33e0dfdfdfc1d4",
     "ci": "ok",
@@ -261,14 +261,22 @@
      "workflow": "Build & Push Frontend"
     }
    ],
-   "ramas": 79,
+   "ramas": 80,
    "prs": [
     {
-     "numero": 103,
-     "sha": "ef588a26ec2bbd1b7b8e96a3783010cddb23793c",
+     "numero": 104,
+     "sha": "8e1abb803152154f79a95e96692210c35bf883e5",
      "borrador": true,
      "ci": "sin",
-     "adelante": 1,
+     "adelante": 3,
+     "atras": 0
+    },
+    {
+     "numero": 103,
+     "sha": "46e5eea902215be824131e4531261bea5e718afe",
+     "borrador": true,
+     "ci": "sin",
+     "adelante": 2,
      "atras": 0
     },
     {
