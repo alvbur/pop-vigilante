@@ -38,7 +38,8 @@ jobs:
           # Llave fine-grained de solo lectura; sin ella el archivo sale igual, con la producción y «falta la llave» en cada repo.
           REPOS_TOKEN: ${{ secrets.REPOS_TOKEN }}
           WEB_TOKEN: ${{ secrets.WEB_TOKEN }}
-          REPOS_CADA_S: "900"
+          # 10/11: cada 5 min (antes 15): la CI de las PR ya no la apunta estado.yml de back y front, la da este archivo
+          REPOS_CADA_S: "300"
           CONSUMO_CADA_S: "3600"
           VUELTA_S: "300"
           DURACION_S: "20700"
