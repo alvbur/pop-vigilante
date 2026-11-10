@@ -38,7 +38,9 @@ jobs:
           # Llave fine-grained de solo lectura; sin ella el archivo sale igual, con la producción y «falta la llave» en cada repo.
           REPOS_TOKEN: ${{ secrets.REPOS_TOKEN }}
           WEB_TOKEN: ${{ secrets.WEB_TOKEN }}
-          REPOS_CADA_S: "900"
+          # 10/11: cada 5 min (antes 15): la CI de las PR ya no la apunta estado.yml de back y front, la da este archivo
+          REPOS_CADA_S: "300"
+          CONSUMO_CADA_S: "3600"
           VUELTA_S: "300"
           DURACION_S: "20700"
         run: |
@@ -65,8 +67,11 @@ jobs:
             git fetch -q origin "$rama" && git reset -q --hard FETCH_HEAD || echo "::warning::no pude sincronizar con origin, sigo con lo que hay"
             python3 vigilar.py || echo "::warning::vigilar.py falló en la vuelta $n, sigo"
             [ -f produccion.py ] && { python3 produccion.py || echo "::warning::produccion.py falló en la vuelta $n, sigo"; }
+            # 10/11: minutos de Actions de Álvaro y Fabián (consumo-actions.json, 1 vez por hora; aviso al 70/90/100 %)
+            [ -f consumo.py ] && { python3 consumo.py || echo "::warning::consumo.py falló en la vuelta $n, sigo"; }
             git add estado.json
             [ -f estado-produccion.json ] && git add estado-produccion.json
+            for f in consumo-actions.json consumo-cache.json; do [ -f "$f" ] && git add "$f"; done
             if ! git diff --cached --quiet; then
               git commit -q -m "estado $(date -u +%H:%M)" || echo "::warning::no pude hacer commit en la vuelta $n"
               publicar && echo "estado.json publicado" || echo "::warning::no pude publicar estado.json en la vuelta $n; se reintenta en la siguiente"

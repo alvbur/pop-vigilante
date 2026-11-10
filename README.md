@@ -37,7 +37,17 @@ Sin el secreto, el aviso se salta sin fallar. Lo mismo con `NTFY_TEMA` para ntfy
 ## Pruebas
 
 ```sh
-python3 -m unittest -v test_vigilar test_produccion
+python3 -m unittest -v test_vigilar test_produccion test_consumo
 ```
 
 Casos simulados sin red: caída (aviso al 2.º fallo), vuelta (con duración), sin cambios (sin commit), latido a los 30 min y envío a Slack con y sin secreto.
+
+## Minutos de GitHub Actions (consumo.py, 10/11/2026)
+
+Una vez por hora, en la misma vuelta, `consumo.py` cuenta los minutos del mes de cada cuenta que paga (Álvaro: `alvbur/*`,
+Fabián: `bianfa-2026/pulpop-web`) por repo, workflow y día, como la factura (cada job redondeado al minuto; públicos y
+self-hosted gratis), y deja `consumo-actions.json` (+ `consumo-cache.json`, para no volver a pedir lo ya acabado).
+Al cruzar el 70 %, el 90 % o el 100 % de los 2.000 min avisa una vez por Slack/ntfy con la previsión y lo que más gasta.
+`turno` dice qué cuenta tiene más minutos libres. Usa `REPOS_TOKEN` y `WEB_TOKEN` (con «Actions: read»): sin llave para
+un repo, su cuenta sale como `incompleta` y no se inventa nada. Desde el PC: `GH_TOKEN=$(gh auth token) python3 consumo.py
+--forzar --sin-avisos --salida /tmp/informe.json`.
