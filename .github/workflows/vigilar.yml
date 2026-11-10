@@ -29,6 +29,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: Dejar en cola la siguiente ejecución
         run: gh workflow run vigilar.yml --ref main || echo "::warning::no pude dejar la siguiente en cola; la lanzará el último paso"
+      # 10/11/2026 (minutos de Actions): la prueba de humo de cada despliegue se hace aquí (repo público, gratis) y no en la
+      # subida de pop_backend. La misma versión de Playwright que allí. Si no se instala, despliegues.py avisa «sin humo».
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Playwright para la prueba de humo
+        continue-on-error: true
+        run: |
+          npm install --no-save --no-audit --no-fund playwright@1.58.2
+          npx playwright install --with-deps chromium
+
       - name: Vigilar cada 5 min durante ~5 h 45 min
         env:
           # Sin SLACK_WEBHOOK (o NTFY_TEMA) el aviso se salta sin fallar.
@@ -67,11 +78,13 @@ jobs:
             git fetch -q origin "$rama" && git reset -q --hard FETCH_HEAD || echo "::warning::no pude sincronizar con origin, sigo con lo que hay"
             python3 vigilar.py || echo "::warning::vigilar.py falló en la vuelta $n, sigo"
             [ -f produccion.py ] && { python3 produccion.py || echo "::warning::produccion.py falló en la vuelta $n, sigo"; }
+            # 10/11: despliegues (commit servido), su prueba de humo y el aviso si una construcción falla o no llega
+            [ -f despliegues.py ] && { python3 despliegues.py || echo "::warning::despliegues.py falló en la vuelta $n, sigo"; }
             # 10/11: minutos de Actions de Álvaro y Fabián (consumo-actions.json, 1 vez por hora; aviso al 70/90/100 %)
             [ -f consumo.py ] && { python3 consumo.py || echo "::warning::consumo.py falló en la vuelta $n, sigo"; }
             git add estado.json
             [ -f estado-produccion.json ] && git add estado-produccion.json
-            for f in consumo-actions.json consumo-cache.json; do [ -f "$f" ] && git add "$f"; done
+            for f in consumo-actions.json consumo-cache.json estado-despliegues.json; do [ -f "$f" ] && git add "$f"; done
             if ! git diff --cached --quiet; then
               git commit -q -m "estado $(date -u +%H:%M)" || echo "::warning::no pude hacer commit en la vuelta $n"
               publicar && echo "estado.json publicado" || echo "::warning::no pude publicar estado.json en la vuelta $n; se reintenta en la siguiente"
@@ -83,6 +96,15 @@ jobs:
           done
           echo "Fin de la cadena de esta ejecución tras $n vueltas; el último paso lanza la siguiente."
           exit 0
+      - name: Capturas de la prueba de humo
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: humo-capturas
+          path: humo-capturas
+          retention-days: 7
+          if-no-files-found: ignore
+
       - name: Lanzar la siguiente ejecución
         if: always()
         run: |
