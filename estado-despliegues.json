@@ -2,8 +2,9 @@
  "partes": {
   "api": {
    "repo": "alvbur/pop_backend",
-   "commit": "05cbf5e3d4b96509aa86458bb60274661568b996",
-   "desde": "2026-11-10T21:08:48Z"
+   "commit": "8547c9c2853c06a1859275fcce81c9353b706eee",
+   "desde": "2026-11-11T10:39:47Z",
+   "antes": "05cbf5e3d4b96509aa86458bb60274661568b996"
   },
   "app": {
    "repo": "alvbur/pop_frontend",
@@ -18,5 +19,14 @@
  },
  "avisadas": {},
  "version": 1,
- "actualizado": "2026-11-10T21:08:48Z"
+ "actualizado": "2026-11-11T10:39:47Z",
+ "historial": [
+  {
+   "t": "2026-11-11T10:39:47Z",
+   "parte": "api",
+   "commit": "8547c9c2853c06a1859275fcce81c9353b706eee",
+   "antes": "05cbf5e3d4b96509aa86458bb60274661568b996"
+  }
+ ],
+ "humoPendiente": "2026-11-11T10:39:47Z"
 }
