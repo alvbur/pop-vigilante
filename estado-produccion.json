@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-11T10:24:37Z",
+ "actualizado": "2026-11-11T10:29:37Z",
  "cadaS": 300,
  "vigilante": {
   "actualizado": "2026-11-11T10:04:35Z",
@@ -35,13 +35,22 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-11T10:24:37Z",
+   "comprobado": "2026-11-11T10:29:37Z",
    "main": {
-    "sha": "05cbf5e3d4b96509aa86458bb60274661568b996",
-    "ci": "ok",
-    "fecha": "2026-11-10T20:13:11Z"
+    "sha": "8547c9c2853c06a1859275fcce81c9353b706eee",
+    "ci": "en_curso",
+    "fecha": "2026-11-11T10:29:08Z"
    },
    "despliegues": [
+    {
+     "sha": "8547c9c2853c06a1859275fcce81c9353b706eee",
+     "resultado": "en_curso",
+     "inicio": "2026-11-11T10:29:12Z",
+     "fecha": "2026-11-11T10:29:12Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/43004003674",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
     {
      "sha": "05cbf5e3d4b96509aa86458bb60274661568b996",
      "resultado": "ok",
@@ -122,15 +131,6 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/42642750475",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "53a2f469048b3614e90ae20dc43ee2698e4ff432",
-     "resultado": "ok",
-     "inicio": "2026-11-09T14:54:19Z",
-     "fecha": "2026-11-09T14:58:32Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/42639229665",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 81,
@@ -141,15 +141,7 @@
      "borrador": true,
      "ci": "sin",
      "adelante": 2,
-     "atras": 0
-    },
-    {
-     "numero": 172,
-     "sha": "0a5af318d611f1a50bc6d95622992deb310a1175",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 1,
-     "atras": 1
+     "atras": 2
     },
     {
      "numero": 171,
@@ -157,13 +149,13 @@
      "borrador": true,
      "ci": "ok",
      "adelante": 1,
-     "atras": 1
+     "atras": 3
     }
    ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-11T10:24:37Z",
+   "comprobado": "2026-11-11T10:29:37Z",
    "main": {
     "sha": "f095c815b8572c1acdf777268889477747aabebd",
     "ci": "ok",
