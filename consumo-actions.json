@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-12T18:04:25Z",
+ "actualizado": "2026-11-12T19:05:01Z",
  "mes": "2026-11",
  "cadaS": 3600,
  "nota": "Estimación por jobs (redondeo al minuto, como la factura). Públicos y self-hosted no gastan. Cupo: 1 de cada mes UTC.",
@@ -13,11 +13,11 @@
    "quedan": 281,
    "porcentaje": 86.0,
    "nivel": "70",
-   "ritmoDia": 146.3,
+   "ritmoDia": 145.7,
    "ritmo3Dias": 15.3,
-   "previsionFinMes": 1999,
+   "previsionFinMes": 1998,
    "diasHastaAgotar": 18.3,
-   "publicosGratis": 16167,
+   "publicosGratis": 16513,
    "incompleta": [],
    "porRepo": {
     "alvbur/pop_backend": 1421,
