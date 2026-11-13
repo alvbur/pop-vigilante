@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-13T10:26:05Z",
+ "actualizado": "2026-11-13T10:31:05Z",
  "cadaS": 300,
  "vigilante": {
   "actualizado": "2026-11-13T10:21:03Z",
@@ -35,13 +35,22 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-13T10:26:05Z",
+   "comprobado": "2026-11-13T10:31:05Z",
    "main": {
-    "sha": "4ffef9611b6782fefdbbb4769bfbc48bddce8470",
-    "ci": "sin",
-    "fecha": "2026-11-11T11:59:29Z"
+    "sha": "9bf1a6e1660726861c09b146092c5ea1f349b492",
+    "ci": "en_curso",
+    "fecha": "2026-11-13T10:27:39Z"
    },
    "despliegues": [
+    {
+     "sha": "9bf1a6e1660726861c09b146092c5ea1f349b492",
+     "resultado": "en_curso",
+     "inicio": "2026-11-13T10:27:42Z",
+     "fecha": "2026-11-13T10:27:42Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/43409222737",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
     {
      "sha": "8547c9c2853c06a1859275fcce81c9353b706eee",
      "resultado": "ok",
@@ -122,15 +131,6 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/42645982620",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "9b5f603efde53fa640545ec16a12ae51ea81447e",
-     "resultado": "ok",
-     "inicio": "2026-11-09T15:15:04Z",
-     "fecha": "2026-11-09T15:20:20Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/42642750475",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 83,
@@ -141,7 +141,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 1,
-     "atras": 0
+     "atras": 4
     },
     {
      "numero": 178,
@@ -149,7 +149,7 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 2,
-     "atras": 0
+     "atras": 4
     },
     {
      "numero": 174,
@@ -157,21 +157,13 @@
      "borrador": false,
      "ci": "ok",
      "adelante": 2,
-     "atras": 5
-    },
-    {
-     "numero": 171,
-     "sha": "570cda8ce8449bcea02fbc476acdac9bcedbae7a",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 3,
-     "atras": 0
+     "atras": 9
     }
    ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-13T10:26:05Z",
+   "comprobado": "2026-11-13T10:31:05Z",
    "main": {
     "sha": "c9262812023120b744999240435c1ccaf5a1a1e7",
     "ci": "sin",
