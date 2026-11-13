@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-13T14:07:00Z",
+ "actualizado": "2026-11-13T15:06:59Z",
  "mes": "2026-11",
  "cadaS": 3600,
  "nota": "Estimación por jobs (redondeo al minuto, como la factura). Públicos y self-hosted no gastan. Cupo: 1 de cada mes UTC.",
@@ -9,29 +9,29 @@
   "alvbur": {
    "nombre": "Álvaro",
    "limite": 2000,
-   "usados": 1887,
-   "quedan": 113,
-   "porcentaje": 94.3,
+   "usados": 1895,
+   "quedan": 105,
+   "porcentaje": 94.8,
    "nivel": "90",
-   "ritmoDia": 149.9,
-   "ritmo3Dias": 61.7,
-   "previsionFinMes": 2961,
-   "diasHastaAgotar": 1.8,
+   "ritmoDia": 150.0,
+   "ritmo3Dias": 64.3,
+   "previsionFinMes": 3012,
+   "diasHastaAgotar": 1.6,
    "publicosGratis": 17551,
    "incompleta": [],
    "porRepo": {
-    "alvbur/pop_backend": 1559,
-    "alvbur/pop_frontend": 328,
+    "alvbur/pop_backend": 1564,
+    "alvbur/pop_frontend": 331,
     "alvbur/pop-visitas": 0
    },
    "porWorkflow": {
-    "pop_backend · Subida": 784,
+    "pop_backend · Subida": 787,
     "pop_backend · Pruebas": 485,
-    "pop_backend · Build & Push Backend": 188,
+    "pop_backend · Build & Push Backend": 189,
     "pop_frontend · Pruebas": 122,
-    "pop_frontend · Estado de la CI": 105,
-    "pop_frontend · Build & Push Frontend": 101,
-    "pop_backend · Estado de la CI": 100,
+    "pop_frontend · Estado de la CI": 106,
+    "pop_frontend · Build & Push Frontend": 103,
+    "pop_backend · Estado de la CI": 101,
     "pop_backend · Pruebas (copia de ficheros)": 2,
     "pop_backend · Claude en GitHub": 0,
     "pop_frontend · Claude en GitHub": 0
@@ -45,7 +45,7 @@
     "2026-11-10": 29,
     "2026-11-11": 17,
     "2026-11-12": 0,
-    "2026-11-13": 168
+    "2026-11-13": 176
    }
   },
   "bianfa-2026": {
