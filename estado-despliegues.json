@@ -21,7 +21,7 @@
  },
  "avisadas": {},
  "version": 1,
- "actualizado": "2026-11-13T20:12:28Z",
+ "actualizado": "2026-11-13T20:17:27Z",
  "historial": [
   {
    "t": "2026-11-11T10:39:47Z",
@@ -97,11 +97,10 @@
   }
  ],
  "humo": {
-  "t": "2026-11-13T14:16:56Z",
-  "api": "b21c305425dc36e4115acebeb959742697a33449",
-  "app": "5c270616fb016d5fd248d2036ac817782bcd819e",
+  "t": "2026-11-13T20:17:27Z",
+  "api": "0d01a8f8e09de6fa462307b300600a6cb1021fd3",
+  "app": "e2feeec5abe2864cff322bff6ce80e585d9b60d2",
   "resultado": "ok",
   "resumen": "96/96 sin errores"
- },
- "humoPendiente": "2026-11-13T20:12:28Z"
+ }
 }
