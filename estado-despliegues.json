@@ -14,14 +14,14 @@
   },
   "web": {
    "repo": "bianfa-2026/pulpop-web",
-   "commit": "979e712c5a5557b3213aa70ed19160d59cd30edf",
-   "desde": "2026-11-11T12:04:52Z",
-   "antes": "504633f17ea7525f1121ab12e9743e23bf9647b5"
+   "commit": "2ec18ad63f3648d3581995da2408e57418d18a45",
+   "desde": "2026-11-13T21:22:28Z",
+   "antes": "979e712c5a5557b3213aa70ed19160d59cd30edf"
   }
  },
  "avisadas": {},
  "version": 1,
- "actualizado": "2026-11-13T20:17:27Z",
+ "actualizado": "2026-11-13T21:22:28Z",
  "historial": [
   {
    "t": "2026-11-11T10:39:47Z",
@@ -94,6 +94,12 @@
    "parte": "app",
    "commit": "e2feeec5abe2864cff322bff6ce80e585d9b60d2",
    "antes": "5c270616fb016d5fd248d2036ac817782bcd819e"
+  },
+  {
+   "t": "2026-11-13T21:22:28Z",
+   "parte": "web",
+   "commit": "2ec18ad63f3648d3581995da2408e57418d18a45",
+   "antes": "979e712c5a5557b3213aa70ed19160d59cd30edf"
   }
  ],
  "humo": {
