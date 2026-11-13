@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-13T20:02:22Z",
+ "actualizado": "2026-11-13T20:07:22Z",
  "cadaS": 300,
  "vigilante": {
   "actualizado": "2026-11-13T19:47:21Z",
@@ -35,13 +35,31 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-13T20:02:22Z",
+   "comprobado": "2026-11-13T20:07:22Z",
    "main": {
-    "sha": "b21c305425dc36e4115acebeb959742697a33449",
+    "sha": "0d01a8f8e09de6fa462307b300600a6cb1021fd3",
     "ci": "ok",
-    "fecha": "2026-11-13T14:08:11Z"
+    "fecha": "2026-11-13T20:06:07Z"
    },
    "despliegues": [
+    {
+     "sha": "0d01a8f8e09de6fa462307b300600a6cb1021fd3",
+     "resultado": "ok",
+     "inicio": "2026-11-13T20:06:11Z",
+     "fecha": "2026-11-13T20:07:02Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/43498402815",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
+    {
+     "sha": "d316ab3217df7ca69cf83f46c4f64b486b4c550b",
+     "resultado": "ok",
+     "inicio": "2026-11-13T20:05:58Z",
+     "fecha": "2026-11-13T20:06:49Z",
+     "run": "https://github.com/alvbur/pop_backend/actions/runs/43498370020",
+     "evento": "push",
+     "workflow": "Build & Push Backend"
+    },
     {
      "sha": "b21c305425dc36e4115acebeb959742697a33449",
      "resultado": "ok",
@@ -113,55 +131,38 @@
      "run": "https://github.com/alvbur/pop_backend/actions/runs/42695684764",
      "evento": "push",
      "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "037daecef9cabad65d8016f0b3d1ecbf661d3bdc",
-     "resultado": "ok",
-     "inicio": "2026-11-09T20:23:41Z",
-     "fecha": "2026-11-09T20:28:32Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/42692530933",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
-    },
-    {
-     "sha": "84f7ffa665a5040d78143634115d168fd439c98c",
-     "resultado": "ok",
-     "inicio": "2026-11-09T18:59:00Z",
-     "fecha": "2026-11-09T19:03:21Z",
-     "run": "https://github.com/alvbur/pop_backend/actions/runs/42678942922",
-     "evento": "push",
-     "workflow": "Build & Push Backend"
     }
    ],
    "ramas": 86,
-   "prs": [
-    {
-     "numero": 186,
-     "sha": "f9cc7fb1a4ba09814aa709a72d7d1cb6b25b017a",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 1,
-     "atras": 0
-    },
-    {
-     "numero": 185,
-     "sha": "15eee5f382ad67772417152968f90ff083fa32b7",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 2,
-     "atras": 0
-    }
-   ]
+   "prs": []
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-13T20:02:22Z",
+   "comprobado": "2026-11-13T20:07:22Z",
    "main": {
-    "sha": "5c270616fb016d5fd248d2036ac817782bcd819e",
-    "ci": "ok",
-    "fecha": "2026-11-13T14:08:19Z"
+    "sha": "e2feeec5abe2864cff322bff6ce80e585d9b60d2",
+    "ci": "en_curso",
+    "fecha": "2026-11-13T20:06:29Z"
    },
    "despliegues": [
+    {
+     "sha": "e2feeec5abe2864cff322bff6ce80e585d9b60d2",
+     "resultado": "en_curso",
+     "inicio": "2026-11-13T20:06:32Z",
+     "fecha": "2026-11-13T20:06:32Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/43498456694",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
+    {
+     "sha": "46f241806dd76ebb5b485bd2cb3269ff844d81d2",
+     "resultado": "en_curso",
+     "inicio": "2026-11-13T20:06:19Z",
+     "fecha": "2026-11-13T20:06:19Z",
+     "run": "https://github.com/alvbur/pop_frontend/actions/runs/43498425691",
+     "evento": "push",
+     "workflow": "Build & Push Frontend"
+    },
     {
      "sha": "5c270616fb016d5fd248d2036ac817782bcd819e",
      "resultado": "ok",
@@ -233,45 +234,10 @@
      "run": "https://github.com/alvbur/pop_frontend/actions/runs/42696839538",
      "evento": "push",
      "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "07bfb4f77f594367ff38856dae496238798325b2",
-     "resultado": "ok",
-     "inicio": "2026-11-09T20:35:21Z",
-     "fecha": "2026-11-09T20:36:55Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/42694400035",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
-    },
-    {
-     "sha": "4914db287bc70fe6bbfdcbf802e838c84e850bdd",
-     "resultado": "ok",
-     "inicio": "2026-11-09T20:30:57Z",
-     "fecha": "2026-11-09T20:32:32Z",
-     "run": "https://github.com/alvbur/pop_frontend/actions/runs/42693686811",
-     "evento": "push",
-     "workflow": "Build & Push Frontend"
     }
    ],
    "ramas": 86,
-   "prs": [
-    {
-     "numero": 111,
-     "sha": "38a46fbbc02f0444206c972199e77611fa1706a8",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 2,
-     "atras": 0
-    },
-    {
-     "numero": 110,
-     "sha": "5a6a6cba4b99cbe4d8e272d683741ad40ef1dccd",
-     "borrador": false,
-     "ci": "ok",
-     "adelante": 3,
-     "atras": 0
-    }
-   ]
+   "prs": []
   },
   {
    "repo": "bianfa-2026/pulpop-web",
