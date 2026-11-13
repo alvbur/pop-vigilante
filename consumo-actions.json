@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-13T00:05:35Z",
+ "actualizado": "2026-11-13T01:05:35Z",
  "mes": "2026-11",
  "cadaS": 3600,
  "nota": "Estimación por jobs (redondeo al minuto, como la factura). Públicos y self-hosted no gastan. Cupo: 1 de cada mes UTC.",
@@ -13,7 +13,7 @@
    "quedan": 281,
    "porcentaje": 86.0,
    "nivel": "70",
-   "ritmoDia": 143.2,
+   "ritmoDia": 142.7,
    "ritmo3Dias": 5.7,
    "previsionFinMes": 1821,
    "diasHastaAgotar": 49.6,
