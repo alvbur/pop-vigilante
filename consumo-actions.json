@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-13T12:07:00Z",
+ "actualizado": "2026-11-13T13:07:01Z",
  "mes": "2026-11",
  "cadaS": 3600,
  "nota": "Estimación por jobs (redondeo al minuto, como la factura). Públicos y self-hosted no gastan. Cupo: 1 de cada mes UTC.",
@@ -9,26 +9,26 @@
   "alvbur": {
    "nombre": "Álvaro",
    "limite": 2000,
-   "usados": 1871,
-   "quedan": 129,
-   "porcentaje": 93.5,
+   "usados": 1880,
+   "quedan": 120,
+   "porcentaje": 94.0,
    "nivel": "90",
-   "ritmoDia": 149.6,
-   "ritmo3Dias": 56.3,
-   "previsionFinMes": 2857,
-   "diasHastaAgotar": 2.3,
+   "ritmoDia": 149.8,
+   "ritmo3Dias": 59.3,
+   "previsionFinMes": 2916,
+   "diasHastaAgotar": 2.0,
    "publicosGratis": 17551,
    "incompleta": [],
    "porRepo": {
-    "alvbur/pop_backend": 1545,
-    "alvbur/pop_frontend": 326,
+    "alvbur/pop_backend": 1552,
+    "alvbur/pop_frontend": 328,
     "alvbur/pop-visitas": 0
    },
    "porWorkflow": {
-    "pop_backend · Subida": 777,
+    "pop_backend · Subida": 784,
     "pop_backend · Pruebas": 478,
     "pop_backend · Build & Push Backend": 188,
-    "pop_frontend · Pruebas": 120,
+    "pop_frontend · Pruebas": 122,
     "pop_frontend · Estado de la CI": 105,
     "pop_frontend · Build & Push Frontend": 101,
     "pop_backend · Estado de la CI": 100,
@@ -45,7 +45,7 @@
     "2026-11-10": 29,
     "2026-11-11": 17,
     "2026-11-12": 0,
-    "2026-11-13": 152
+    "2026-11-13": 161
    }
   },
   "bianfa-2026": {
