@@ -2,9 +2,9 @@
  "partes": {
   "api": {
    "repo": "alvbur/pop_backend",
-   "commit": "8547c9c2853c06a1859275fcce81c9353b706eee",
-   "desde": "2026-11-11T10:39:47Z",
-   "antes": "05cbf5e3d4b96509aa86458bb60274661568b996"
+   "commit": "9bf1a6e1660726861c09b146092c5ea1f349b492",
+   "desde": "2026-11-13T10:36:16Z",
+   "antes": "8547c9c2853c06a1859275fcce81c9353b706eee"
   },
   "app": {
    "repo": "alvbur/pop_frontend",
@@ -20,7 +20,7 @@
  },
  "avisadas": {},
  "version": 1,
- "actualizado": "2026-11-11T12:04:52Z",
+ "actualizado": "2026-11-13T10:36:16Z",
  "historial": [
   {
    "t": "2026-11-11T10:39:47Z",
@@ -33,6 +33,12 @@
    "parte": "web",
    "commit": "979e712c5a5557b3213aa70ed19160d59cd30edf",
    "antes": "504633f17ea7525f1121ab12e9743e23bf9647b5"
+  },
+  {
+   "t": "2026-11-13T10:36:16Z",
+   "parte": "api",
+   "commit": "9bf1a6e1660726861c09b146092c5ea1f349b492",
+   "antes": "8547c9c2853c06a1859275fcce81c9353b706eee"
   }
  ],
  "humo": {
@@ -41,5 +47,6 @@
   "app": "f095c815b8572c1acdf777268889477747aabebd",
   "resultado": "ok",
   "resumen": "96/96 sin errores"
- }
+ },
+ "humoPendiente": "2026-11-13T10:36:16Z"
 }
