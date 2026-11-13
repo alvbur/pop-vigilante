@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-13T17:27:23Z",
+ "actualizado": "2026-11-13T17:32:22Z",
  "cadaS": 300,
  "vigilante": {
   "actualizado": "2026-11-13T17:11:49Z",
@@ -35,7 +35,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-13T17:22:22Z",
+   "comprobado": "2026-11-13T17:32:22Z",
    "main": {
     "sha": "b21c305425dc36e4115acebeb959742697a33449",
     "ci": "ok",
@@ -139,16 +139,15 @@
      "numero": 185,
      "sha": "15eee5f382ad67772417152968f90ff083fa32b7",
      "borrador": false,
-     "ci": "en_curso",
+     "ci": "ok",
      "adelante": 2,
      "atras": 0
     }
-   ],
-   "error": "GitHub respondió 503"
+   ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-13T17:27:23Z",
+   "comprobado": "2026-11-13T17:32:22Z",
    "main": {
     "sha": "5c270616fb016d5fd248d2036ac817782bcd819e",
     "ci": "ok",
