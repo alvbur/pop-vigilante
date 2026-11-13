@@ -2,15 +2,15 @@
  "partes": {
   "api": {
    "repo": "alvbur/pop_backend",
-   "commit": "51e66f24499b6555b38594c5b4fe6f84c3ccfaf3",
-   "desde": "2026-11-13T12:01:57Z",
-   "antes": "0dbb6bb13b2314e7c0bef86c51d108a2105364ff"
+   "commit": "b21c305425dc36e4115acebeb959742697a33449",
+   "desde": "2026-11-13T14:11:58Z",
+   "antes": "51e66f24499b6555b38594c5b4fe6f84c3ccfaf3"
   },
   "app": {
    "repo": "alvbur/pop_frontend",
-   "commit": "38320b0cc596c3136d256906e39ef58e9fcd521d",
-   "desde": "2026-11-13T12:06:58Z",
-   "antes": "bf59caa3ef1e962696bb12df1607d2bd3c7a92c8"
+   "commit": "5c270616fb016d5fd248d2036ac817782bcd819e",
+   "desde": "2026-11-13T14:11:58Z",
+   "antes": "38320b0cc596c3136d256906e39ef58e9fcd521d"
   },
   "web": {
    "repo": "bianfa-2026/pulpop-web",
@@ -21,7 +21,7 @@
  },
  "avisadas": {},
  "version": 1,
- "actualizado": "2026-11-13T12:11:58Z",
+ "actualizado": "2026-11-13T14:11:58Z",
  "historial": [
   {
    "t": "2026-11-11T10:39:47Z",
@@ -70,6 +70,18 @@
    "parte": "app",
    "commit": "38320b0cc596c3136d256906e39ef58e9fcd521d",
    "antes": "bf59caa3ef1e962696bb12df1607d2bd3c7a92c8"
+  },
+  {
+   "t": "2026-11-13T14:11:58Z",
+   "parte": "api",
+   "commit": "b21c305425dc36e4115acebeb959742697a33449",
+   "antes": "51e66f24499b6555b38594c5b4fe6f84c3ccfaf3"
+  },
+  {
+   "t": "2026-11-13T14:11:58Z",
+   "parte": "app",
+   "commit": "5c270616fb016d5fd248d2036ac817782bcd819e",
+   "antes": "38320b0cc596c3136d256906e39ef58e9fcd521d"
   }
  ],
  "humo": {
@@ -78,5 +90,6 @@
   "app": "38320b0cc596c3136d256906e39ef58e9fcd521d",
   "resultado": "ok",
   "resumen": "96/96 sin errores"
- }
+ },
+ "humoPendiente": "2026-11-13T14:11:58Z"
 }
