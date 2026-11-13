@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-13T17:16:51Z",
+ "actualizado": "2026-11-13T17:22:22Z",
  "cadaS": 300,
  "vigilante": {
   "actualizado": "2026-11-13T17:11:49Z",
@@ -35,7 +35,7 @@
  "repos": [
   {
    "repo": "alvbur/pop_backend",
-   "comprobado": "2026-11-13T17:16:51Z",
+   "comprobado": "2026-11-13T17:22:22Z",
    "main": {
     "sha": "b21c305425dc36e4115acebeb959742697a33449",
     "ci": "ok",
@@ -134,11 +134,20 @@
     }
    ],
    "ramas": 85,
-   "prs": []
+   "prs": [
+    {
+     "numero": 185,
+     "sha": "15eee5f382ad67772417152968f90ff083fa32b7",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 2,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "alvbur/pop_frontend",
-   "comprobado": "2026-11-13T17:16:51Z",
+   "comprobado": "2026-11-13T17:22:22Z",
    "main": {
     "sha": "5c270616fb016d5fd248d2036ac817782bcd819e",
     "ci": "ok",
@@ -237,7 +246,16 @@
     }
    ],
    "ramas": 85,
-   "prs": []
+   "prs": [
+    {
+     "numero": 110,
+     "sha": "8627967e8ba37d3cf54c5c4bf89e17de34f203c4",
+     "borrador": false,
+     "ci": "en_curso",
+     "adelante": 2,
+     "atras": 0
+    }
+   ]
   },
   {
    "repo": "bianfa-2026/pulpop-web",
