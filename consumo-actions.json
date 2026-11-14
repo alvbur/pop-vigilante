@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-14T02:08:24Z",
+ "actualizado": "2026-11-14T03:08:25Z",
  "mes": "2026-11",
  "cadaS": 3600,
  "nota": "Estimación por jobs (redondeo al minuto, como la factura). Públicos y self-hosted no gastan. Cupo: 1 de cada mes UTC.",
@@ -13,9 +13,9 @@
    "quedan": 37,
    "porcentaje": 98.2,
    "nivel": "90",
-   "ritmoDia": 150.0,
+   "ritmoDia": 149.5,
    "ritmo3Dias": 81.3,
-   "previsionFinMes": 3338,
+   "previsionFinMes": 3335,
    "diasHastaAgotar": 0.5,
    "publicosGratis": 18243,
    "incompleta": [],
@@ -45,7 +45,8 @@
     "2026-11-10": 29,
     "2026-11-11": 17,
     "2026-11-12": 0,
-    "2026-11-13": 244
+    "2026-11-13": 244,
+    "2026-11-14": 0
    }
   },
   "bianfa-2026": {
